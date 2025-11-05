@@ -14,6 +14,33 @@ import {
 import { useForm } from '../../hooks/useForm';
 import { doRegister, getStores } from '../../api/logisticAPI';
 
+const roles = [
+  "Director general",
+  "Gerente Regional 6 países",
+  "Gerente Nacional de Tiendas",
+  "Gerente de Tienda",
+  "Supervisor de Calidad CALZADO GENERAL",
+  "Aux. Admin. de Calidad CALZADO GENERAL",
+  "Supervisor de Envío CALZADO GENERAL",
+  "Aux. Admin. de Envío CALZADO GENERAL",
+  "Aux de transporte en tienda",
+  "Transportistas",
+  "Supervisor de Recibo CALZADO GENERAL",
+  "Aux. Admin. de Recibo CALZADO GENERAL",
+  "Aux. Prevención Andén CALZADO GENERAL",
+  "Aux. Admin. de Separación CALZADO CASUAL HOMBRE",
+  "Aux. Admin. de Separación CALZADO CASUAL MUJER",
+  "Aux. Admin. de Separación CALZADO NIÑOS Y ACCESORIOS",
+  "Aux. Admin. de Separación TENNIS DEPORTIVOS",
+  "Jefe de Control de Inventarios",
+  "Aux. Control de Inventarios",
+  "Supervisor de Resurtido CALZADO CASUAL HOMBRE",
+  "Aux. Admin. de Resurtido CALZADO CASUAL HOMBRE",
+  "Supervisor de Caja",
+  "Cajeros",
+  "Gerencia Operativa Corporativa"
+]
+
 const registerFormState = {
   nombre: '',
   apellido: '',
@@ -27,13 +54,13 @@ type Store = { id: number; nombre: string }
 
 export const EmployeeRegister: React.FC = () => {
 
-  const { nombre, apellido, tiendaId, puesto, usuario, contrasena, onInputChange, onResetForm, formState } = useForm( registerFormState );
+  const { nombre, apellido, tiendaId, puesto, usuario, contrasena, onInputChange, onResetForm, formState } = useForm(registerFormState);
 
   const [stores, setStores] = useState<Store[]>([])
   const [errors, setErrors] = useState<Record<string, string>>({})
 
   console.log(stores);
-  
+
 
   useEffect(() => {
     // Reemplazar con la llamada real a la API para obtener tiendas
@@ -85,7 +112,7 @@ export const EmployeeRegister: React.FC = () => {
               label="Nombre"
               value={nombre}
               name='nombre'
-              onChange={ onInputChange }
+              onChange={onInputChange}
               error={!!errors.nombre}
               helperText={errors.nombre}
               fullWidth
@@ -95,7 +122,7 @@ export const EmployeeRegister: React.FC = () => {
               label="Apellido"
               value={apellido}
               name='apellido'
-              onChange={ onInputChange }
+              onChange={onInputChange}
               error={!!errors.apellido}
               helperText={errors.apellido}
               fullWidth
@@ -108,7 +135,7 @@ export const EmployeeRegister: React.FC = () => {
                 value={tiendaId}
                 name='tiendaId'
                 label="Tienda"
-                onChange={ onInputChange}
+                onChange={onInputChange}
               >
                 {stores.map((s) => (
                   <MenuItem key={s.id} value={s.id}>
@@ -119,11 +146,29 @@ export const EmployeeRegister: React.FC = () => {
               {errors.tiendaId ? <Typography color="error" variant="caption">{errors.tiendaId}</Typography> : null}
             </FormControl>
 
+            <FormControl fullWidth error={!!errors.puesto}>
+              <InputLabel id="puesto-label">Puesto</InputLabel>
+              <Select
+                labelId="puesto-label"
+                value={puesto}
+                name='puesto'
+                label="Puesto"
+                onChange={onInputChange}
+              >
+                {roles.map((role, index) => (
+                  <MenuItem key={index} value={role}>
+                    {role}
+                  </MenuItem>
+                ))}
+              </Select>
+              {errors.puesto ? <Typography color="error" variant="caption">{errors.puesto}</Typography> : null} 
+            </FormControl>
+
             <TextField
               label='Puesto (ej: "Vendedor Piso", "Gerente")'
               value={puesto}
               name='puesto'
-              onChange={ onInputChange}
+              onChange={onInputChange}
               error={!!errors.puesto}
               helperText={errors.puesto}
               fullWidth
@@ -133,7 +178,7 @@ export const EmployeeRegister: React.FC = () => {
               label="Usuario"
               value={usuario}
               name='usuario'
-              onChange={ onInputChange }
+              onChange={onInputChange}
               error={!!errors.usuario}
               helperText={errors.usuario}
               fullWidth
@@ -144,7 +189,7 @@ export const EmployeeRegister: React.FC = () => {
               type="password"
               name='contrasena'
               value={contrasena}
-              onChange={ onInputChange }
+              onChange={onInputChange}
               error={!!errors.contrasena}
               helperText={errors.contrasena}
               fullWidth
