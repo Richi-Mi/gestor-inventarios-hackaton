@@ -36,9 +36,9 @@ export const HomeScreen: React.FC = () => {
       {/* Barra de Navegación (Header) */}
       <AppBar position="static" color="primary">
         <Toolbar>
-          <DirectionsRunIcon sx={{ mr: 1 }} />
+          <ShoppingCartIcon sx={{ mr: 1 }} />
           <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            **ShoeStore**
+            Calzando Mexico.
           </Typography>
           <Button color="inherit">Colección</Button>
           <Button color="inherit">Ofertas</Button>
@@ -64,7 +64,7 @@ export const HomeScreen: React.FC = () => {
             color="text.primary"
             gutterBottom
           >
-            ¡Calzado para Cada Paso!
+            Gestor de inventarios para Calzado
           </Typography>
           <Typography variant="h5" align="center" color="text.secondary" paragraph>
             Descubre nuestra nueva colección de zapatillas deportivas, casuales y de aventura. ¡Envío gratis!
