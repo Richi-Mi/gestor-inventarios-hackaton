@@ -11,41 +11,33 @@ import {
   MenuItem,
   Stack
 } from '@mui/material'
+import { useForm } from '../../hooks/useForm';
+import { doRegister, getStores } from '../../api/logisticAPI';
+
+const registerFormState = {
+  nombre: '',
+  apellido: '',
+  tiendaId: '',
+  puesto: '',
+  usuario: '',
+  contrasena: ''
+}
 
 type Store = { id: number; nombre: string }
 
 export const EmployeeRegister: React.FC = () => {
-  const [nombre, setNombre] = useState('')
-  const [apellido, setApellido] = useState('')
-  const [tiendaId, setTiendaId] = useState<number | ''>('')
-  const [puesto, setPuesto] = useState('')
-  const [usuario, setUsuario] = useState('')
-  const [contrasena, setContrasena] = useState('')
+
+  const { nombre, apellido, tiendaId, puesto, usuario, contrasena, onInputChange, onResetForm, formState } = useForm( registerFormState );
+
   const [stores, setStores] = useState<Store[]>([])
   const [errors, setErrors] = useState<Record<string, string>>({})
 
+  console.log(stores);
+  
+
   useEffect(() => {
     // Reemplazar con la llamada real a la API para obtener tiendas
-    ;(async () => {
-      try {
-        const res = await fetch('/api/tiendas') // placeholder
-        if (res.ok) {
-          const data = await res.json()
-          setStores(data)
-        } else {
-          // fallback / mock
-          setStores([
-            { id: 1, nombre: 'Tienda Centro' },
-            { id: 2, nombre: 'Tienda Norte' }
-          ])
-        }
-      } catch {
-        setStores([
-          { id: 1, nombre: 'Tienda Centro' },
-          { id: 2, nombre: 'Tienda Norte' }
-        ])
-      }
-    })()
+    getStores().then(setStores).catch(console.error)
   }, [])
 
   const validate = () => {
@@ -59,51 +51,25 @@ export const EmployeeRegister: React.FC = () => {
     setErrors(e)
     return Object.keys(e).length === 0
   }
-
-  const hashPassword = async (pwd: string) => {
-    const enc = new TextEncoder()
-    const data = enc.encode(pwd)
-    const hash = await crypto.subtle.digest('SHA-256', data)
-    return Array.from(new Uint8Array(hash)).map((b) => b.toString(16).padStart(2, '0')).join('')
-  }
-
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault()
     if (!validate()) return
-    const contrasenaHash = await hashPassword(contrasena)
     const payload = {
       nombre: nombre.trim(),
       apellido: apellido.trim(),
-      tiendaId: Number(tiendaId),
+      sucursalId: Number(tiendaId),
       puesto: puesto.trim(),
       usuario: usuario.trim(),
-      contrasenaHash
+      password: contrasena
     }
-    // TODO: enviar payload al backend
-    try {
-      const res = await fetch('/api/empleados', {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify(payload)
+    doRegister(payload)
+      .then((response) => {
+        alert('Empleado registrado exitosamente')
+        onResetForm()
       })
-      if (res.ok) {
-        // registrar exitoso
-        alert('Empleado registrado')
-        setNombre('')
-        setApellido('')
-        setTiendaId('')
-        setPuesto('')
-        setUsuario('')
-        setContrasena('')
-        setErrors({})
-      } else {
-        console.error('Error al registrar empleado', await res.text())
-        alert('Error al registrar empleado')
-      }
-    } catch (err) {
-      console.error(err)
-      alert('Error de red')
-    }
+      .catch((error) => {
+        console.error('Error al registrar empleado:', error)
+      })
   }
 
   return (
@@ -118,7 +84,8 @@ export const EmployeeRegister: React.FC = () => {
             <TextField
               label="Nombre"
               value={nombre}
-              onChange={(ev) => setNombre(ev.target.value)}
+              name='nombre'
+              onChange={ onInputChange }
               error={!!errors.nombre}
               helperText={errors.nombre}
               fullWidth
@@ -127,7 +94,8 @@ export const EmployeeRegister: React.FC = () => {
             <TextField
               label="Apellido"
               value={apellido}
-              onChange={(ev) => setApellido(ev.target.value)}
+              name='apellido'
+              onChange={ onInputChange }
               error={!!errors.apellido}
               helperText={errors.apellido}
               fullWidth
@@ -138,8 +106,9 @@ export const EmployeeRegister: React.FC = () => {
               <Select
                 labelId="tienda-label"
                 value={tiendaId}
+                name='tiendaId'
                 label="Tienda"
-                onChange={(ev) => setTiendaId(ev.target.value as number)}
+                onChange={ onInputChange}
               >
                 {stores.map((s) => (
                   <MenuItem key={s.id} value={s.id}>
@@ -153,7 +122,8 @@ export const EmployeeRegister: React.FC = () => {
             <TextField
               label='Puesto (ej: "Vendedor Piso", "Gerente")'
               value={puesto}
-              onChange={(ev) => setPuesto(ev.target.value)}
+              name='puesto'
+              onChange={ onInputChange}
               error={!!errors.puesto}
               helperText={errors.puesto}
               fullWidth
@@ -162,7 +132,8 @@ export const EmployeeRegister: React.FC = () => {
             <TextField
               label="Usuario"
               value={usuario}
-              onChange={(ev) => setUsuario(ev.target.value)}
+              name='usuario'
+              onChange={ onInputChange }
               error={!!errors.usuario}
               helperText={errors.usuario}
               fullWidth
@@ -171,8 +142,9 @@ export const EmployeeRegister: React.FC = () => {
             <TextField
               label="Contraseña"
               type="password"
+              name='contrasena'
               value={contrasena}
-              onChange={(ev) => setContrasena(ev.target.value)}
+              onChange={ onInputChange }
               error={!!errors.contrasena}
               helperText={errors.contrasena}
               fullWidth
