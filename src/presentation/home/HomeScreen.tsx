@@ -86,37 +86,6 @@ export const HomeScreen: React.FC = () => {
         </Container>
       </Box>
 
-      {/* Sección de Productos (Cards) */}
-      <Container sx={{ py: 8 }} maxWidth="md">
-        <Grid container spacing={4}>
-          {/* Se usa el tipo 'Producto' en el mapeo, lo que es seguro */}
-          {productos.map((producto: Producto) => ( 
-            <Grid item key={producto.id} xs={12} sm={6} md={4}>
-              <Card
-                sx={{ height: '100%', display: 'flex', flexDirection: 'column' }}
-              >
-                <CardMedia
-                  component="img"
-                  image={producto.imagen}
-                  alt={producto.nombre}
-                  sx={{ aspectRatio: '3/2' }}
-                />
-                <CardContent sx={{ flexGrow: 1 }}>
-                  <Typography gutterBottom variant="h5" component="h2">
-                    {producto.nombre}
-                  </Typography>
-                  <Typography variant="subtitle1" color="primary" sx={{ mb: 1 }}>
-                    **{producto.precio}**
-                  </Typography>
-                  <Button variant="contained" size="small" fullWidth>
-                    Añadir al Carrito
-                  </Button>
-                </CardContent>
-              </Card>
-            </Grid>
-          ))}
-        </Grid>
-      </Container>
     </>
   );
 };
