@@ -1,4 +1,4 @@
-# 🏪 Gestor de "Calzando a Mexico"
+# 🏪 Frontend de "Calzando a Mexico"
 
 ## ⭐ Qué hace
 Sistema inteligente de gestión de tienda que integra:
