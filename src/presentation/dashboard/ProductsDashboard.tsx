@@ -31,7 +31,7 @@ export const ProductsDashboard: React.FC = () => {
 
   useEffect(() => {
     setLoading(true)
-    // Leer empleado desde localStorage. Suposición: clave 'empleado'. Si no existe, no romper.
+    
     let tiendaId = null
     try {
       const raw = localStorage.getItem('empleado')
@@ -47,7 +47,7 @@ export const ProductsDashboard: React.FC = () => {
       .then((data: any) => {
         const list = Array.isArray(data) ? data : (data?.data ?? data?.products ?? [])
         setProducts(list)
-        // Leer inventario local por tienda
+        
         let localInv: Record<string, number> = {}
         if (tiendaId) {
           const rawInv = localStorage.getItem(`inventario_${tiendaId}`)
@@ -57,7 +57,7 @@ export const ProductsDashboard: React.FC = () => {
             } catch {}
           }
         }
-        // Inicializar mapa de inventarios: si hay local, usarlo; si no, usar 0
+        
         const map: Record<string, number> = {}
         list.forEach((p: any) => {
           const id = p.id ?? p.nombreModelo
@@ -103,7 +103,7 @@ export const ProductsDashboard: React.FC = () => {
   }
 
   const handleSaveInventories = () => {
-    // Guardar inventario local por tienda
+    
     let tiendaId = null
     try {
       const raw = localStorage.getItem('empleado')

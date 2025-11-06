@@ -12,10 +12,8 @@ import {
   useTheme,
 } from '@mui/material';
 
-// --- 1. Definimos las Interfaces de Props ---
-// Reutilizamos la misma interface, ya que está diseñada para ambos casos
 interface CoberturaRow {
-  tienda?: string; // Usaremos esta llave
+  tienda?: string;
   categoria?: string;
   rotacion: number;
   dias_cobertura: number;
@@ -24,8 +22,6 @@ interface CoberturaRow {
 interface Props {
   data: CoberturaRow[];
 }
-
-// --- 2. Estilos para la Tabla (Idénticos al anterior) ---
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   [`&.${tableCellClasses.head}`]: {
     backgroundColor: theme.palette.grey[700],
@@ -51,18 +47,16 @@ const StyledTableRow = styled(TableRow)(({ theme }) => ({
 export const CoverageByStoreTable: React.FC<Props> = ({ data }) => {
   const theme = useTheme();
 
-  // --- 3. Función para formatear y colorear los días (Idéntica) ---
   const formatDays = (days: number) => {
     let color = theme.palette.text.primary;
     if (days > 90) {
-      color = theme.palette.error.light; // Sobreinventario (Rojo)
+      color = theme.palette.error.light;
     } else if (days < 28) {
-      color = theme.palette.warning.light; // Venta Perdida (Amarillo)
+      color = theme.palette.warning.light;
     } else {
-      color = theme.palette.success.light; // Óptimo (Verde)
+      color = theme.palette.success.light;
     }
 
-    // Formateamos el número. 9999+ significa inventario sin ventas
     const displayValue = days >= 9999 ? '999+' : days.toFixed(1);
 
     return (
@@ -73,7 +67,6 @@ export const CoverageByStoreTable: React.FC<Props> = ({ data }) => {
   };
 
   return (
-    // NOTA: El scroll se maneja en DashboardScreen.tsx, aquí solo va la tabla.
     <TableContainer component={Paper} sx={{ backgroundColor: 'transparent', border: `1px solid ${theme.palette.grey[700]}` }}>
       <Table stickyHeader aria-label="cobertura por tienda">
         <TableHead>

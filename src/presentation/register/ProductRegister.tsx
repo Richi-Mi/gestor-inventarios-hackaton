@@ -63,8 +63,7 @@ export const ProductRegister: React.FC = () => {
             descripcion: descripcion?.trim() || null,
             marca: marca.trim(),
             categoria: categoria.trim(),
-            // Primer SKU
-            codigoBarras: codigoBarras.trim(),
+                    codigoBarras: codigoBarras.trim(),
             talla: talla.trim(),
             color: color.trim(),
             precioVenta: Number(precioVenta)
@@ -72,10 +71,8 @@ export const ProductRegister: React.FC = () => {
 
     try {
       const resp = await doCreateProduct(payload)
-      // Manejo simple: mostrar mensaje y resetear
       alert(resp.message || 'Producto creado con éxito')
       onResetForm()
-      // navegar a listado de productos si aplica
       navigate('/')
     } catch (error) {
       console.error('Error creando producto:', error)

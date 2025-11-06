@@ -1,4 +1,4 @@
-// ...existing code...
+
 import React, { useState } from 'react'
 import {
   Box,
@@ -117,9 +117,9 @@ export const LoginScreen: React.FC = () => {
           </Button>
         </Box>
 
-        <Button> <LinkD to="/register"> ¿No tienes cuenta? </LinkD> </Button>
+         <LinkD to="/register"> <Button sx={{ textDecoration: 'none', color: '#fff' }}> ¿No tienes cuenta? </Button> </LinkD>
       </Paper>
     </Box>
   )
 }
-// ...existing code...
+

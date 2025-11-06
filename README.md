@@ -1,73 +1,53 @@
-# React + TypeScript + Vite
+# 🏪 Gestor de "Calzando a Mexico"
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## ⭐ Qué hace
+Sistema inteligente de gestión de tienda que integra:
+1. **Gestión de inventario local** por tienda
+2. **Sistema de ventas** con carrito y recibos PDF
+3. **Recomendaciones IA** para optimizar exhibición de productos
+4. **Dashboard** para monitoreo de productos e inventario
 
-Currently, two official plugins are available:
+## 🚀 Cómo ejecutarlo
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
-
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+# Instalar y ejecutar (usa el que prefieras)
+bun install && bun dev
+# o
+npm install && npm run dev
+# o
+yarn && yarn dev
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+Abre http://localhost:5173 y navega a:
+- `/sales` - Sistema de ventas (principal)
+- `/registerProduct` - Alta de productos
+- `/products` - Ver/editar inventario
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+## 🎯 Funcionalidades destacadas
 
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+### 1. Sistema de Ventas Inteligente
+- Carrito con panel lateral y ajuste de cantidades
+- Actualización automática de inventario local
+- Generación de recibos PDF
+- Recomendaciones IA para optimizar ventas
+
+### 2. Gestión de Inventario Local
+- Persistencia por tienda en localStorage
+- Edición rápida desde la tabla de productos
+- Actualización automática al realizar ventas
+
+### 3. Integración IA
+- Analiza inventario + datos históricos
+- Sugiere productos para mostrador
+- Optimiza exhibición según rotación
+
+## 🔧 Requerimientos técnicos
+- Backend en `http://127.0.0.1:3000`
+- Node.js / Bun / Yarn instalado
+- Para probar: ejecuta los comandos arriba y crea un nuevo usuario.
+
+## 💡 Innovación
+- **Gestión híbrida**: Inventario local + datos centralizados
+- **IA para retail**: Optimización de exhibición basada en datos
+- **UX moderna**: Dark mode, PDF automáticos, panel lateral
+- **Sin dependencia backend**: Funciona offline (localStorage)

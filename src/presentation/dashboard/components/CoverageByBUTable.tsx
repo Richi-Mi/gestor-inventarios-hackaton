@@ -12,7 +12,6 @@ import {
   useTheme,
 } from '@mui/material';
 
-// --- 1. Definimos las Interfaces de Props ---
 // Esta interface debe coincidir con la que definimos en DashboardScreen
 interface CoberturaRow {
   categoria?: string;

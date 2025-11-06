@@ -1,11 +1,9 @@
 import { createTheme } from '@mui/material/styles'
 
-// 60-30-10 rule (kept as accent colors)
-const PRIMARY = '#FFF5EE' // 60% (used as light accent)
-const SECONDARY = '#FFDAB9' // 30% (used as secondary accent)
-const ACCENT = '#FF1493' // 10% (strong accent)
+const PRIMARY = '#FFF5EE' 
+const SECONDARY = '#FFDAB9' 
+const ACCENT = '#FF1493' 
 
-// Dark theme palette: background is dark, accents kept as requested
 const theme = createTheme({
   palette: {
     mode: 'dark',
@@ -22,8 +20,8 @@ const theme = createTheme({
       contrastText: '#fff'
     },
     background: {
-      default: '#0b1020', // dark background
-      paper: '#0f1724' // slightly lighter for cards
+      default: '#0b1020', 
+      paper: '#0f1724' 
     },
     text: {
       primary: '#ffffff',

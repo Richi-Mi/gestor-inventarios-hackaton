@@ -10,7 +10,7 @@ import {
   Box,
 } from '@mui/material';
 import { useNavigate } from 'react-router-dom';
-// 1. Interfaz para Producto (Tipo de dato)
+
 interface Producto {
   id: number;
   nombre: string;
@@ -18,14 +18,14 @@ interface Producto {
   imagen: string;
 }
 
-// 2. Datos tipados
+
 const productos: Producto[] = [
   { id: 1, nombre: 'Runner X', precio: '$89.99', imagen: 'https://via.placeholder.com/300x200?text=Zapato+Deportivo' },
   { id: 2, nombre: 'Casual Chic', precio: '$55.00', imagen: 'https://via.placeholder.com/300x200?text=Zapato+Casual' },
   { id: 3, nombre: 'Bota Trail', precio: '$120.50', imagen: 'https://via.placeholder.com/300x200?text=Bota+Trail' },
 ];
 
-// 3. Declaración del componente como React.FC
+
 export const HomeScreen: React.FC = () => {
 
   const navigate = useNavigate();

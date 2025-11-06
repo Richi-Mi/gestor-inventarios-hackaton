@@ -11,7 +11,7 @@ import { CoverageByBUTable } from './components/CoverageByBUTable';
 import { CoverageByStoreTable } from './components/CoverageByStoreTable';
 import { InventoryEvolutionChart } from './components/InventoryEvolutionChart';
 
-// ----------------- TIPOS (Asegurando compatibilidad con el JSON) -----------------
+
 interface KpiData { totalVentasPzs: string; totalInventarioPzs: string; rotacionInventario: string; }
 interface ChartRow { mes?: string; ventas?: number; tienda?: string; inventario?: number; categoria?: string; TIENDA?: string; }
 interface ParadojaRow { TIENDA: string; ventas: number; inventario: number; }
@@ -38,17 +38,17 @@ interface DashboardData {
   evolucionInventario: EvolucionRowRaw[];
   '2026 (Simulado)'?: YearData;
 }
-// --- MAPA DE MESES ---
+
 const monthOrder: Record<string, number> = {
   Enero: 1, Febrero: 2, Marzo: 3, Abril: 4, Mayo: 5, Junio: 6, Julio: 7, Agosto: 8,
   Septiembre: 9, Octubre: 10, Noviembre: 11, Diciembre: 12,
 };
-// --- NORMALIZADORES ---
+
 const normalizeEvolucionRow = (r: EvolucionRowRaw): EvolucionRowClean => {
   const año = Number(r.Año ?? 0);
   const mes = String(r.Mes ?? '');
   const periodo = String(r.Periodo ?? `${mes.slice(0, 3)}-${String(año).slice(-2)}`);
-  const invInit = Number(r['Inventario Final'] ?? 0); // Asumimos Final aquí para evitar errores de clave
+  const invInit = Number(r['Inventario Final'] ?? 0); 
   const ventas = Number(r.VentasPredichas ?? 0);
   const compras = Number(r.ComprasProgramadas ?? 0);
   const invFinal = Number(r['Inventario Final'] ?? 0);
@@ -71,7 +71,7 @@ const normalizePredictionRow = (r: any): PredictionRow => {
     INVENTARIO_SUGERIDO: Number(r.INVENTARIO_SUGERIDO ?? r['INVENTARIO_SUGERIDO'] ?? 0),
   };
 };
-// ---------------- FIN DE TIPOS ----------------
+
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.background.paper,
@@ -87,7 +87,7 @@ export const DashboardScreen = () => {
   const [selectedYear, setSelectedYear] = useState('2024');
 
 
-  // --- 1. FETCH Y PROCESAMIENTO DE DATOS ---
+  
   useEffect(() => {
     setLoading(true);
     fetch('/dashboard_data.json')
@@ -98,16 +98,16 @@ export const DashboardScreen = () => {
       .then((jsonData: DashboardData) => {
         const dataCopy: Record<string, any> = { ...jsonData };
 
-        // Normalizamos el array de evolución y la guardamos limpia
+        
         const evolucionRaw: EvolucionRowRaw[] = jsonData.evolucionInventario ?? [];
         const evolucionNormalized: EvolucionRowClean[] = evolucionRaw.map(normalizeEvolucionRow);
         dataCopy.evolucionInventario = evolucionNormalized; 
         
-        // El año 2026 (Simulado) ya viene completo del JSON de Python. Solo verificamos.
+        
         if (dataCopy['2026 (Simulado)']) {
             const year2026 = dataCopy['2026 (Simulado)'];
             
-            // Sanitización de tablas de 2026 (para asegurar que la rotación sea 7.3x/50 días)
+            
             const sanitizetable = (arr: any[]) => arr.map((c: any) => ({
                 ...(c ?? {}),
                 dias_cobertura: 50.0,
@@ -130,7 +130,7 @@ export const DashboardScreen = () => {
   }, []);
 
 
-  // --- 2. LÓGICA DE RENDER ---
+  
   const handleYearChange = (event: SelectChangeEvent) => {
     setSelectedYear(event.target.value);
   };
@@ -151,13 +151,13 @@ export const DashboardScreen = () => {
     );
   }
 
-  // 1. Obtención y filtrado de datos (Añadimos el filtro para el año simulado)
+  
   const years = Object.keys(data).filter((key) => key.startsWith('20') || key === '2026 (Simulado)');
   const currentData: YearData = (data[selectedYear] ?? {}) as YearData;
   const predictionData = data.prediccion_2025?.prediccionDetallada?.map(normalizePredictionRow) ?? [];
   const evolucionData = data.evolucionInventario ?? [];
 
-  // 2. Procesamiento de datos para el gráfico de Evolución (Nivo Series)
+  
   const evolucionForChart = [{
     id: 'Días de Cobertura',
     data: (evolucionData as EvolucionRowClean[]).map((r) => ({
@@ -170,7 +170,7 @@ export const DashboardScreen = () => {
     })),
   }];
   
-  // ---------------- Render ----------------
+  
   return (
     <Box sx={{ bgcolor: '#121212', color: 'grey.200', py: 4, px: { xs: 2, md: 4 } }}>
       <Container maxWidth="lg">

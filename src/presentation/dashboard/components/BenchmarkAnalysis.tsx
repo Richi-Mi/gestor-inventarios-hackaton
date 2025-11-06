@@ -1,10 +1,7 @@
 import React from 'react';
 import { Box, Typography, Paper, styled, useTheme } from '@mui/material';
-// Importamos el gráfico de Dona (Pie) de Nivo
 import { ResponsivePie } from '@nivo/pie';
 
-// --- 1. Definimos las Interfaces de Props ---
-// Estas interfaces deben coincidir con las que definimos en DashboardScreen
 interface BenchmarkData {
   totalTiendas: number;
   tiendasFueraRango: number;
@@ -19,7 +16,6 @@ interface Props {
   diasCobertura: string;
 }
 
-// --- 2. Definimos el StyledPaper (copiado de DashboardScreen) ---
 const StyledPaper = styled(Paper)(({ theme }) => ({
   backgroundColor: theme.palette.grey[800],
   padding: theme.spacing(3),
@@ -28,8 +24,6 @@ const StyledPaper = styled(Paper)(({ theme }) => ({
   marginBottom: theme.spacing(4), // Separación con el siguiente elemento
 }));
 
-// --- 3. Componente de Métrica Central para el Donut ---
-// Esto renderiza el % en el centro del gráfico
 const CenterMetric = ({ dataWithArc, centerX, centerY, data }: any) => {
   return (
     <text
@@ -43,7 +37,6 @@ const CenterMetric = ({ dataWithArc, centerX, centerY, data }: any) => {
         fill: useTheme().palette.error.main,
       }}
     >
-      {/* Usamos el dato original 'porcentajeFueraRango' */}
       {data.porcentajeFueraRango}
     </text>
   );
@@ -53,7 +46,6 @@ const CenterMetric = ({ dataWithArc, centerX, centerY, data }: any) => {
 export const BenchmarkAnalysis: React.FC<Props> = ({ data, diasCobertura }) => {
   const theme = useTheme(); // Hook para acceder al tema de MUI
 
-  // --- 4. Preparamos los datos para el gráfico de Dona ---
   const porcentajeFuera = parseFloat(data.porcentajeFueraRango);
   const porcentajeOptimo = 100 - porcentajeFuera;
 
@@ -83,31 +75,27 @@ export const BenchmarkAnalysis: React.FC<Props> = ({ data, diasCobertura }) => {
         }}
       >
         
-        {/* --- COLUMNA 1: Gráfico de Dona --- */}
         <Box sx={{ height: 250 }}>
           <ResponsivePie
             data={pieData}
             margin={{ top: 20, right: 20, bottom: 20, left: 20 }}
-            innerRadius={0.6} // Esto lo convierte en Dona
+            innerRadius={0.6} 
             padAngle={1}
             cornerRadius={3}
             activeOuterRadiusOffset={8}
-            colors={{ datum: 'data.color' }} // Usa los colores que definimos en pieData
-            enableArcLabels={false} // Oculta etiquetas sobre el gráfico
-            enableArcLinkLabels={false} // Oculta líneas de etiquetas
+            colors={{ datum: 'data.color' }}
+            enableArcLabels={false} 
+            enableArcLinkLabels={false} 
             
-            // Métrica Central
             layers={['arcs', 'arcLabels', 'arcLinkLabels', 'legends', 
-              // Añadimos nuestra métrica personalizada
               (props) => <CenterMetric {...props} data={data} />
             ]}
            
-            // Tema de Nivo para que coincida con nuestro fondo oscuro
             theme={{
               legends: {
                 text: {
                   fill: theme.palette.text.primary,
-                  fontSize: 12, // <-- ✅ ESTA ES LA UBICACIÓN CORRECTA
+                  fontSize: 12,
                 },
               },
             }}
@@ -133,7 +121,6 @@ export const BenchmarkAnalysis: React.FC<Props> = ({ data, diasCobertura }) => {
           />
         </Box>
 
-        {/* --- COLUMNA 2: Resumen y Recomendación --- */}
         <Box>
           <Typography variant="h5" sx={{ color: 'white', fontWeight: 'bold' }}>
             Diagnóstico de Cobertura (vs. {data.rangoOptimo} Óptimos)

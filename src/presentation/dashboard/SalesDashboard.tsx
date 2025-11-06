@@ -17,15 +17,16 @@ import {
   ListItem,
   ListItemText,
   Divider,
+  Snackbar,
+  Alert,
   Fab
 } from '@mui/material'
 import AddShoppingCartIcon from '@mui/icons-material/AddShoppingCart'
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart'
-import { useNavigate } from 'react-router-dom'
-import { getProducts } from '../../api/logisticAPI'
+import { getProducts, promptProductRecommendation } from '../../api/logisticAPI'
+import { CircularProgress } from '@mui/material'
 import jsPDF from 'jspdf'
 
-// Tipos
 
 type SKU = {
   codigoBarras?: string
@@ -50,17 +51,6 @@ type CartItem = {
   precioVenta?: number
 }
 
-const getTiendaId = () => {
-  try {
-    const raw = localStorage.getItem('empleado')
-    if (raw) {
-      const parsed = JSON.parse(raw)
-      return parsed.tienda ?? parsed.sucursalId ?? null
-    }
-  } catch {}
-  return null
-}
-
 const getInventarioLocal = (tiendaId: string | number | null) => {
   if (!tiendaId) return {}
   try {
@@ -76,10 +66,34 @@ export const SalesDashboard: React.FC = () => {
   const [inventoryMap, setInventoryMap] = useState<Record<string | number, number>>({})
   const [cart, setCart] = useState<CartItem[]>([])
   const [drawerOpen, setDrawerOpen] = useState(false)
-  const navigate = useNavigate()
+  const [snackbar, setSnackbar] = useState<{ open: boolean; message: string; severity?: 'success' | 'error' | 'info' | 'warning' }>({ open: false, message: '' })
+  const [recLoading, setRecLoading] = useState(false)
+  const [recommendation, setRecommendation] = useState<any>(null)
+  const [recError, setRecError] = useState<string | null>(null)
+
+
+  const fetchRecommendation = async () => {
+    setRecLoading(true)
+    setRecError(null)
+    try {
+      const resp: any = await promptProductRecommendation()
+    
+      setRecommendation(resp?.message ?? resp)
+    } catch (err: any) {
+      console.error('Error fetching recommendation', err)
+      setRecError(err?.message ?? 'Error al generar recomendación')
+    } finally {
+      setRecLoading(false)
+    }
+  }
+
+
+  React.useEffect(() => {
+    if (products && products.length > 0) fetchRecommendation()
+  }, [products])
 
   useEffect(() => {
-    // Leer usuario y tienda
+  
     let tiendaId = null
     try {
       const raw = localStorage.getItem('empleado')
@@ -89,11 +103,11 @@ export const SalesDashboard: React.FC = () => {
         tiendaId = parsed.tienda ?? parsed.sucursalId ?? null
       }
     } catch {}
-    // Leer productos
+  
     getProducts().then((data: any) => {
       const list = Array.isArray(data) ? data : (data?.data ?? data?.products ?? [])
       setProducts(list)
-      // Leer inventario local
+    
       const localInv = getInventarioLocal(tiendaId)
       const map: Record<string, number> = {}
       list.forEach((p: any) => {
@@ -116,31 +130,67 @@ export const SalesDashboard: React.FC = () => {
 
   const handleAddToCart = (p: Product) => {
     const id = p.id ?? p.nombreModelo
-    const inv = inventoryMap[id] ?? 0
-    if (inv <= 0) return // No hay inventario
-    setCart((prev) => {
-      const idx = prev.findIndex(item => item.productId === id)
-      if (idx >= 0) {
-        // Ya está en el carrito, sumar cantidad si hay inventario
-        if (prev[idx].cantidad < inv) {
-          const updated = [...prev]
-          updated[idx].cantidad += 1
-          return updated
-        }
-        return prev // No sumar si excede inventario
-      }
-      // Nuevo item
-      const precioVenta = Array.isArray(p.skus) ? p.skus[0]?.precioVenta : p.skus?.precioVenta
-      return [...prev, { productId: id, nombreModelo: p.nombreModelo, cantidad: 1, precioVenta }]
+
+  
+    const exists = cart.find(item => item.productId === id)
+    if (exists) {
+      setSnackbar({ open: true, message: 'El producto ya está en el carrito. Ajusta la cantidad en el carrito.', severity: 'info' })
+      return
+    }
+
+    const precioVenta = Array.isArray(p.skus) ? p.skus[0]?.precioVenta : p.skus?.precioVenta
+    setCart((prev) => [...prev, { productId: id, nombreModelo: p.nombreModelo, cantidad: 1, precioVenta }])
+
+  
+    setInventoryMap((prevInv) => {
+      const available = Number(prevInv[id] ?? 0)
+      const next = Math.max(0, available - 1)
+      return { ...prevInv, [id]: next }
     })
   }
 
   const handleRemoveFromCart = (id: string | number) => {
+  
+    const item = cart.find(it => it.productId === id)
+    if (item) {
+      setInventoryMap((prevInv) => {
+        const current = Number(prevInv[id] ?? 0)
+        const next = current + item.cantidad
+        const nextMap = { ...prevInv, [id]: next }
+        return nextMap
+      })
+    }
     setCart((prev) => prev.filter(item => item.productId !== id))
   }
 
+
+  const adjustCartQuantity = (productId: string | number, delta: number) => {
+    setCart((prevCart) => {
+      const idx = prevCart.findIndex(it => it.productId === productId)
+      if (idx === -1) return prevCart
+      const item = prevCart[idx]
+      const newQty = item.cantidad + delta
+      if (newQty <= 0) {
+        setInventoryMap((prevInv) => ({ ...prevInv, [productId]: Number(prevInv[productId] ?? 0) + item.cantidad }))
+        return prevCart.filter(it => it.productId !== productId)
+      }
+
+      if (delta > 0) {
+        const available = Number(inventoryMap[productId] ?? 0)
+        if (available <= 0) return prevCart
+        setInventoryMap((prevInv) => ({ ...prevInv, [productId]: Math.max(0, Number(prevInv[productId] ?? 0) - 1) }))
+      } else if (delta < 0) {
+        setInventoryMap((prevInv) => ({ ...prevInv, [productId]: Number(prevInv[productId] ?? 0) + 1 }))
+      }
+
+      const updated = [...prevCart]
+      updated[idx] = { ...item, cantidad: newQty }
+      return updated
+    })
+  }
+
   const handleRealizarVenta = () => {
-    // Actualizar inventario local
+  
     let tiendaId = null
     let empleado = null
     try {
@@ -152,13 +202,13 @@ export const SalesDashboard: React.FC = () => {
       }
     } catch {}
     if (tiendaId) {
-      // Leer inventario actual
+    
       let localInv: Record<string, number> = {}
       try {
         const rawInv = localStorage.getItem(`inventario_${tiendaId}`)
         if (rawInv) localInv = JSON.parse(rawInv)
       } catch {}
-      // Descontar cantidades del carrito
+    
       cart.forEach(item => {
         const prev = localInv[item.productId] ?? 0
         localInv[item.productId] = Math.max(0, prev - item.cantidad)
@@ -167,7 +217,7 @@ export const SalesDashboard: React.FC = () => {
       setInventoryMap(localInv)
     }
 
-    // Generar PDF recibo
+  
     if (cart.length > 0) {
       const doc = new jsPDF()
       const fecha = new Date().toLocaleString()
@@ -197,13 +247,12 @@ export const SalesDashboard: React.FC = () => {
 
     setCart([])
     setDrawerOpen(false)
-    alert('Venta realizada')
+    setSnackbar({ open: true, message: 'Venta realizada', severity: 'success' })
   }
 
   return (
     <Box sx={{ p: 3, display: 'flex', gap: 3 }}>
-      {/* Main content */}
-      <Box sx={{ flex: 1 }}>
+            <Box sx={{ flex: 1 }}>
         <Paper sx={{ p: 2, mb: 2 }} elevation={1}>
           <Box sx={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between' }}>
             <Typography variant="h5" component="h1">Ventas en tienda {user?.tienda}</Typography>
@@ -224,6 +273,32 @@ export const SalesDashboard: React.FC = () => {
               </Button>
             </Box>
           </Box>
+        </Paper>
+
+                <Paper sx={{ p: 2, mt: 2 }} elevation={1}>
+          <Typography variant="h6" sx={{ mb: 1 }}>Recomendaciones IA</Typography>
+          {recLoading ? (
+            <Box sx={{ display: 'flex', alignItems: 'center', gap: 2 }}>
+              <CircularProgress size={20} />
+              <Typography>Cargando recomendaciones...</Typography>
+            </Box>
+          ) : recError ? (
+            <Box>
+              <Typography color="error">{recError}</Typography>
+              <Button size="small" onClick={() => fetchRecommendation()}>Reintentar</Button>
+            </Box>
+          ) : recommendation ? (
+            <Box>
+                            <Typography sx={{ whiteSpace: 'pre-wrap' }}>
+                {typeof recommendation === 'string' ? recommendation : (recommendation?.explanation ?? recommendation?.message ?? String(recommendation ?? ''))}
+              </Typography>
+              <Button size="small" sx={{ mt: 1 }} onClick={() => fetchRecommendation()}>Actualizar</Button>
+            </Box>
+          ) : (
+            <Box>
+              <Typography color="text.secondary">Aún no hay recomendaciones. Se generarán cuando haya productos cargados.</Typography>
+            </Box>
+          )}
         </Paper>
 
         <Paper sx={{ p: 2 }} elevation={1}>
@@ -273,12 +348,11 @@ export const SalesDashboard: React.FC = () => {
         </Paper>
       </Box>
 
-      {/* Aside: Carrito de compras */}
-      <Drawer
+            <Drawer
         anchor="right"
         open={drawerOpen}
         onClose={() => setDrawerOpen(false)}
-        PaperProps={{ sx: { width: 340, p: 2 } }}
+        PaperProps={{ sx: { width: { xs: '100%', md: '35%' }, p: 2 } }}
       >
         <Box sx={{ p: 2 }}>
           <Typography variant="h6" sx={{ mb: 2 }}>
@@ -288,20 +362,36 @@ export const SalesDashboard: React.FC = () => {
           {cart.length === 0 ? (
             <Typography color="text.secondary">El carrito está vacío.</Typography>
           ) : (
-            <List>
-              {cart.map(item => (
-                <ListItem key={item.productId} secondaryAction={
-                  <Button color="error" size="small" onClick={() => handleRemoveFromCart(item.productId)}>
-                    Quitar
-                  </Button>
-                }>
-                  <ListItemText
-                    primary={item.nombreModelo}
-                    secondary={`Cantidad: ${item.cantidad}${item.precioVenta ? ` | $${item.precioVenta}` : ''}`}
-                  />
-                </ListItem>
-              ))}
-            </List>
+            <>
+              <List>
+                {cart.map(item => (
+                  <ListItem key={item.productId} secondaryAction={
+                    <Button color="error" size="small" onClick={() => handleRemoveFromCart(item.productId)}>
+                      Quitar
+                    </Button>
+                  }>
+                    <ListItemText
+                      primary={item.nombreModelo}
+                      secondary={
+                        <Box sx={{ display: 'flex', alignItems: 'center', gap: 1 }}>
+                          <Button size="small" variant="outlined" onClick={() => adjustCartQuantity(item.productId, -1)}>-</Button>
+                          <Typography>{item.cantidad}</Typography>
+                          <Button size="small" variant="outlined" onClick={() => adjustCartQuantity(item.productId, 1)} disabled={(inventoryMap[item.productId] ?? 0) <= 0}>+</Button>
+                          {item.precioVenta ? <Typography sx={{ ml: 1 }}>${(item.precioVenta * item.cantidad).toFixed(2)}</Typography> : null}
+                        </Box>
+                      }
+                    />
+                  </ListItem>
+                ))}
+              </List>
+
+                            <Box sx={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', mt: 2, mb: 1 }}>
+                <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>Subtotal</Typography>
+                <Typography variant="subtitle1" sx={{ fontWeight: 'bold' }}>
+                  ${cart.reduce((acc, item) => acc + (item.precioVenta ? item.precioVenta * item.cantidad : 0), 0).toFixed(2)}
+                </Typography>
+              </Box>
+            </>
           )}
           <Divider sx={{ mt: 2, mb: 2 }} />
           <Button
@@ -316,8 +406,18 @@ export const SalesDashboard: React.FC = () => {
         </Box>
       </Drawer>
 
-      {/* Floating button to open cart */}
-      <Fab
+      <Snackbar
+        open={snackbar.open}
+        autoHideDuration={3000}
+        onClose={() => setSnackbar({ open: false, message: '', severity: undefined })}
+        anchorOrigin={{ vertical: 'bottom', horizontal: 'center' }}
+      >
+        <Alert onClose={() => setSnackbar({ open: false, message: '', severity: undefined })} severity={snackbar.severity ?? 'info'} sx={{ width: '100%' }}>
+          {snackbar.message}
+        </Alert>
+      </Snackbar>
+
+            <Fab
         color="info"
         size="large"
         aria-label="carrito"
