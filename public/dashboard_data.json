@@ -185,7 +185,174 @@
                 "ventas": 1756252.0,
                 "inventario": 5165248.0
             }
-        ]
+        ],
+        "rotacionPorUnidadNegocio": [
+            {
+                "categoria": "ACCESORIOS",
+                "ventas": 416187.0,
+                "inventario": 1400405.0,
+                "rotacion": 0.2971904556181962,
+                "dias_cobertura": 1228.1686477472865
+            },
+            {
+                "categoria": "CALZADO CASUAL HOMBRE",
+                "ventas": 10118063.0,
+                "inventario": 21583277.0,
+                "rotacion": 0.46879178727122855,
+                "dias_cobertura": 778.5972576964583
+            },
+            {
+                "categoria": "CALZADO CASUAL MUJER",
+                "ventas": 9874676.0,
+                "inventario": 23805637.0,
+                "rotacion": 0.41480410711126947,
+                "dias_cobertura": 879.9334281955175
+            },
+            {
+                "categoria": "CALZADO NIÑOS",
+                "ventas": 3389951.0,
+                "inventario": 8744160.0,
+                "rotacion": 0.3876817212859783,
+                "dias_cobertura": 941.4939625970995
+            },
+            {
+                "categoria": "TENNIS DEPORTIVOS",
+                "ventas": 12085222.0,
+                "inventario": 29877728.0,
+                "rotacion": 0.40448932395394993,
+                "dias_cobertura": 902.3723949795874
+            }
+        ],
+        "coberturaPorTienda": [
+            {
+                "tienda": "Tienda 1",
+                "ventas": 906066.0,
+                "inventario": 2608006.0,
+                "rotacion": 0.34741714551270203,
+                "dias_cobertura": 1050.6102094107935
+            },
+            {
+                "tienda": "Tienda 10",
+                "ventas": 1584538.0,
+                "inventario": 4049144.0,
+                "rotacion": 0.39132666064728744,
+                "dias_cobertura": 932.7245922786326
+            },
+            {
+                "tienda": "Tienda 11",
+                "ventas": 1295362.0,
+                "inventario": 3403478.0,
+                "rotacion": 0.38059949263664994,
+                "dias_cobertura": 959.0133646038713
+            },
+            {
+                "tienda": "Tienda 12",
+                "ventas": 4096845.0,
+                "inventario": 7684390.0,
+                "rotacion": 0.5331386095708313,
+                "dias_cobertura": 684.6249614032262
+            },
+            {
+                "tienda": "Tienda 13",
+                "ventas": 1501947.0,
+                "inventario": 4128275.0,
+                "rotacion": 0.36381951299271487,
+                "dias_cobertura": 1003.2447050395253
+            },
+            {
+                "tienda": "Tienda 14",
+                "ventas": 543289.0,
+                "inventario": 2836352.0,
+                "rotacion": 0.19154498454352634,
+                "dias_cobertura": 1905.5575945767353
+            },
+            {
+                "tienda": "Tienda 15",
+                "ventas": 2945321.0,
+                "inventario": 6547434.0,
+                "rotacion": 0.4498435570331828,
+                "dias_cobertura": 811.393192796303
+            },
+            {
+                "tienda": "Tienda 16",
+                "ventas": 3569190.0,
+                "inventario": 7953013.0,
+                "rotacion": 0.44878463042874445,
+                "dias_cobertura": 813.3077098725481
+            },
+            {
+                "tienda": "Tienda 17",
+                "ventas": 740989.0,
+                "inventario": 2937781.0,
+                "rotacion": 0.2522274464978839,
+                "dias_cobertura": 1447.1065899763696
+            },
+            {
+                "tienda": "Tienda 2",
+                "ventas": 2332033.0,
+                "inventario": 5429187.0,
+                "rotacion": 0.42953631915791446,
+                "dias_cobertura": 849.7535219270053
+            },
+            {
+                "tienda": "Tienda 3",
+                "ventas": 1806049.0,
+                "inventario": 3465916.0,
+                "rotacion": 0.5210885087809398,
+                "dias_cobertura": 700.4568203852721
+            },
+            {
+                "tienda": "Tienda 4",
+                "ventas": 3518295.0,
+                "inventario": 7221036.0,
+                "rotacion": 0.4872285638791996,
+                "dias_cobertura": 749.1350611588852
+            },
+            {
+                "tienda": "Tienda 5",
+                "ventas": 1841201.0,
+                "inventario": 5163260.0,
+                "rotacion": 0.35659660756963624,
+                "dias_cobertura": 1023.5655422737659
+            },
+            {
+                "tienda": "Tienda 6",
+                "ventas": 1264994.0,
+                "inventario": 3675261.0,
+                "rotacion": 0.34419160979315483,
+                "dias_cobertura": 1060.4558322015757
+            },
+            {
+                "tienda": "Tienda 7",
+                "ventas": 2205955.0,
+                "inventario": 4776503.0,
+                "rotacion": 0.4618347355795652,
+                "dias_cobertura": 790.3260016636785
+            },
+            {
+                "tienda": "Tienda 8",
+                "ventas": 3975773.0,
+                "inventario": 8366923.0,
+                "rotacion": 0.47517743380690847,
+                "dias_cobertura": 768.1341200818055
+            },
+            {
+                "tienda": "Tienda 9",
+                "ventas": 1756252.0,
+                "inventario": 5165248.0,
+                "rotacion": 0.3400131029526559,
+                "dias_cobertura": 1073.4880415794544
+            }
+        ],
+        "analisisBenchmark": {
+            "totalTiendas": 17,
+            "tiendasFueraRango": 17,
+            "porcentajeFueraRango": "100.0%",
+            "tiendasSobreinventariadas": 17,
+            "tiendasConVentaPerdida": 0,
+            "rangoOptimo": "28-90 días"
+        },
+        "coberturaGeneralDias": "868.8 días"
     },
     "2024": {
         "kpis": {
@@ -373,7 +540,174 @@
                 "ventas": 1637393.0,
                 "inventario": 5350508.0
             }
-        ]
+        ],
+        "rotacionPorUnidadNegocio": [
+            {
+                "categoria": "ACCESORIOS",
+                "ventas": 340930.0,
+                "inventario": 1461872.0,
+                "rotacion": 0.23321467269364213,
+                "dias_cobertura": 1565.0816296600474
+            },
+            {
+                "categoria": "CALZADO CASUAL HOMBRE",
+                "ventas": 9887083.0,
+                "inventario": 23148864.0,
+                "rotacion": 0.42710877734648234,
+                "dias_cobertura": 854.5832334976858
+            },
+            {
+                "categoria": "CALZADO CASUAL MUJER",
+                "ventas": 9082428.0,
+                "inventario": 25158135.0,
+                "rotacion": 0.36101356479723157,
+                "dias_cobertura": 1011.0423418715789
+            },
+            {
+                "categoria": "CALZADO NIÑOS",
+                "ventas": 3602731.0,
+                "inventario": 10087901.0,
+                "rotacion": 0.3571338576776279,
+                "dias_cobertura": 1022.0257535186502
+            },
+            {
+                "categoria": "TENNIS DEPORTIVOS",
+                "ventas": 13005687.0,
+                "inventario": 32182465.0,
+                "rotacion": 0.4041233945255592,
+                "dias_cobertura": 903.1894835697645
+            }
+        ],
+        "coberturaPorTienda": [
+            {
+                "tienda": "Tienda 1",
+                "ventas": 865480.0,
+                "inventario": 2742465.0,
+                "rotacion": 0.31558470208370937,
+                "dias_cobertura": 1156.583312150483
+            },
+            {
+                "tienda": "Tienda 10",
+                "ventas": 1581697.0,
+                "inventario": 4304392.0,
+                "rotacion": 0.36746118847911624,
+                "dias_cobertura": 993.3021811383595
+            },
+            {
+                "tienda": "Tienda 11",
+                "ventas": 1373011.0,
+                "inventario": 3553080.0,
+                "rotacion": 0.3864283945196843,
+                "dias_cobertura": 944.5475673537941
+            },
+            {
+                "tienda": "Tienda 12",
+                "ventas": 4165598.0,
+                "inventario": 8681463.0,
+                "rotacion": 0.47982672966526496,
+                "dias_cobertura": 760.6912608945942
+            },
+            {
+                "tienda": "Tienda 13",
+                "ventas": 1476078.0,
+                "inventario": 4371275.0,
+                "rotacion": 0.3376767647883055,
+                "dias_cobertura": 1080.9153547441258
+            },
+            {
+                "tienda": "Tienda 14",
+                "ventas": 494334.0,
+                "inventario": 2651664.0,
+                "rotacion": 0.18642407182810491,
+                "dias_cobertura": 1957.9016616295864
+            },
+            {
+                "tienda": "Tienda 15",
+                "ventas": 3042717.0,
+                "inventario": 7402932.0,
+                "rotacion": 0.41101512211648034,
+                "dias_cobertura": 888.0451846162492
+            },
+            {
+                "tienda": "Tienda 16",
+                "ventas": 3616236.0,
+                "inventario": 8266995.0,
+                "rotacion": 0.43743052947292216,
+                "dias_cobertura": 834.418211366736
+            },
+            {
+                "tienda": "Tienda 17",
+                "ventas": 720131.0,
+                "inventario": 3035485.0,
+                "rotacion": 0.2372375419414031,
+                "dias_cobertura": 1538.542327715374
+            },
+            {
+                "tienda": "Tienda 2",
+                "ventas": 2372082.0,
+                "inventario": 5972459.0,
+                "rotacion": 0.39717007684774397,
+                "dias_cobertura": 919.0017609003398
+            },
+            {
+                "tienda": "Tienda 3",
+                "ventas": 1845243.0,
+                "inventario": 3660658.0,
+                "rotacion": 0.5040741309349303,
+                "dias_cobertura": 724.0998448442834
+            },
+            {
+                "tienda": "Tienda 4",
+                "ventas": 3531012.0,
+                "inventario": 8208519.0,
+                "rotacion": 0.43016432075018646,
+                "dias_cobertura": 848.5129574750808
+            },
+            {
+                "tienda": "Tienda 5",
+                "ventas": 1666787.0,
+                "inventario": 5517761.0,
+                "rotacion": 0.30207669378938307,
+                "dias_cobertura": 1208.3024195653072
+            },
+            {
+                "tienda": "Tienda 6",
+                "ventas": 1196680.0,
+                "inventario": 3988388.0,
+                "rotacion": 0.30004101907838454,
+                "dias_cobertura": 1216.5003342581142
+            },
+            {
+                "tienda": "Tienda 7",
+                "ventas": 2303021.0,
+                "inventario": 5319667.0,
+                "rotacion": 0.4329257827604623,
+                "dias_cobertura": 843.1006295643851
+            },
+            {
+                "tienda": "Tienda 8",
+                "ventas": 4031359.0,
+                "inventario": 9011526.0,
+                "rotacion": 0.44735586403457084,
+                "dias_cobertura": 815.9052542827369
+            },
+            {
+                "tienda": "Tienda 9",
+                "ventas": 1637393.0,
+                "inventario": 5350508.0,
+                "rotacion": 0.3060257082131267,
+                "dias_cobertura": 1192.7102534333542
+            }
+        ],
+        "analisisBenchmark": {
+            "totalTiendas": 17,
+            "tiendasFueraRango": 17,
+            "porcentajeFueraRango": "100.0%",
+            "tiendasSobreinventariadas": 17,
+            "tiendasConVentaPerdida": 0,
+            "rangoOptimo": "28-90 días"
+        },
+        "coberturaGeneralDias": "935.3 días"
     },
     "2025": {
         "kpis": {
@@ -561,7 +895,174 @@
                 "ventas": 558414.0,
                 "inventario": 2395359.0
             }
-        ]
+        ],
+        "rotacionPorUnidadNegocio": [
+            {
+                "categoria": "ACCESORIOS",
+                "ventas": 24365.0,
+                "inventario": 330410.0,
+                "rotacion": 0.07374171483913926,
+                "dias_cobertura": 4949.708598399343
+            },
+            {
+                "categoria": "CALZADO CASUAL HOMBRE",
+                "ventas": 3658317.0,
+                "inventario": 9602806.0,
+                "rotacion": 0.3809633350918471,
+                "dias_cobertura": 958.0974502756322
+            },
+            {
+                "categoria": "CALZADO CASUAL MUJER",
+                "ventas": 3082011.0,
+                "inventario": 10506553.0,
+                "rotacion": 0.2933417839323706,
+                "dias_cobertura": 1244.2823354621382
+            },
+            {
+                "categoria": "CALZADO NIÑOS",
+                "ventas": 1423378.0,
+                "inventario": 5307013.0,
+                "rotacion": 0.26820699327474795,
+                "dias_cobertura": 1360.8891980907392
+            },
+            {
+                "categoria": "TENNIS DEPORTIVOS",
+                "ventas": 4414285.0,
+                "inventario": 17499214.0,
+                "rotacion": 0.25225618704931546,
+                "dias_cobertura": 1446.941715362737
+            }
+        ],
+        "coberturaPorTienda": [
+            {
+                "tienda": "Tienda 1",
+                "ventas": 296806.0,
+                "inventario": 1266817.0,
+                "rotacion": 0.23429271946934718,
+                "dias_cobertura": 1557.8802483777283
+            },
+            {
+                "tienda": "Tienda 10",
+                "ventas": 549992.0,
+                "inventario": 2008001.0,
+                "rotacion": 0.27390026200186157,
+                "dias_cobertura": 1332.601865118038
+            },
+            {
+                "tienda": "Tienda 11",
+                "ventas": 462640.0,
+                "inventario": 1695293.0,
+                "rotacion": 0.272896779494754,
+                "dias_cobertura": 1337.5020426249353
+            },
+            {
+                "tienda": "Tienda 12",
+                "ventas": 1493572.0,
+                "inventario": 4080444.0,
+                "rotacion": 0.36603173576208864,
+                "dias_cobertura": 997.1812942395813
+            },
+            {
+                "tienda": "Tienda 13",
+                "ventas": 517234.0,
+                "inventario": 2053399.0,
+                "rotacion": 0.25189161969982454,
+                "dias_cobertura": 1449.0359005788482
+            },
+            {
+                "tienda": "Tienda 14",
+                "ventas": 131810.0,
+                "inventario": 918371.0,
+                "rotacion": 0.14352587353041418,
+                "dias_cobertura": 2543.095478340035
+            },
+            {
+                "tienda": "Tienda 15",
+                "ventas": 1080750.0,
+                "inventario": 3417547.0,
+                "rotacion": 0.31623559237078525,
+                "dias_cobertura": 1154.202780476521
+            },
+            {
+                "tienda": "Tienda 16",
+                "ventas": 1264477.0,
+                "inventario": 3964805.0,
+                "rotacion": 0.3189253948176518,
+                "dias_cobertura": 1144.4682860977305
+            },
+            {
+                "tienda": "Tienda 17",
+                "ventas": 279067.0,
+                "inventario": 1356674.0,
+                "rotacion": 0.2056993795119535,
+                "dias_cobertura": 1774.4341323051453
+            },
+            {
+                "tienda": "Tienda 2",
+                "ventas": 835233.0,
+                "inventario": 2852156.0,
+                "rotacion": 0.2928426776094996,
+                "dias_cobertura": 1246.4030276581504
+            },
+            {
+                "tienda": "Tienda 3",
+                "ventas": 681883.0,
+                "inventario": 1785210.0,
+                "rotacion": 0.38196234616655744,
+                "dias_cobertura": 955.591575094261
+            },
+            {
+                "tienda": "Tienda 4",
+                "ventas": 1254749.0,
+                "inventario": 4176171.0,
+                "rotacion": 0.30045441146926216,
+                "dias_cobertura": 1214.8265629221462
+            },
+            {
+                "tienda": "Tienda 5",
+                "ventas": 571396.0,
+                "inventario": 2547757.0,
+                "rotacion": 0.22427413603416652,
+                "dias_cobertura": 1627.472549685332
+            },
+            {
+                "tienda": "Tienda 6",
+                "ventas": 407297.0,
+                "inventario": 1724419.0,
+                "rotacion": 0.23619375569394677,
+                "dias_cobertura": 1545.3414461682753
+            },
+            {
+                "tienda": "Tienda 7",
+                "ventas": 802429.0,
+                "inventario": 2543615.0,
+                "rotacion": 0.31546794621041313,
+                "dias_cobertura": 1157.0113679839587
+            },
+            {
+                "tienda": "Tienda 8",
+                "ventas": 1414607.0,
+                "inventario": 4459958.0,
+                "rotacion": 0.31717944429073097,
+                "dias_cobertura": 1150.7681426714275
+            },
+            {
+                "tienda": "Tienda 9",
+                "ventas": 558414.0,
+                "inventario": 2395359.0,
+                "rotacion": 0.2331233021856014,
+                "dias_cobertura": 1565.6950488347356
+            }
+        ],
+        "analisisBenchmark": {
+            "totalTiendas": 17,
+            "tiendasFueraRango": 17,
+            "porcentajeFueraRango": "100.0%",
+            "tiendasSobreinventariadas": 17,
+            "tiendasConVentaPerdida": 0,
+            "rangoOptimo": "28-90 días"
+        },
+        "coberturaGeneralDias": "1252.5 días"
     },
     "prediccion_2025": {
         "prediccionDetallada": [
