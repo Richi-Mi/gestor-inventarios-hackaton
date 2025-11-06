@@ -18,10 +18,13 @@ npm install && npm run dev
 yarn && yarn dev
 ```
 
-Abre http://localhost:5173 y navega a:
+1. Ejecuta el repositorio del servidor.
+
+2. Abre http://localhost:5173 y navega a:
+- `/login` - Ahi accede y crea un nuevo usuario. dando click en `¿No tienes Cuenta` Una vez creada tu cuenta puedes ver las demas pantallas
 - `/sales` - Sistema de ventas (principal)
 - `/registerProduct` - Alta de productos
-- `/products` - Ver/editar inventario
+- `/` - Ver/editar inventario
 
 ## 🎯 Funcionalidades destacadas
 
