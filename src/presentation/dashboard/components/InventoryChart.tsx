@@ -9,6 +9,7 @@ import {
   Legend,
 } from 'chart.js';
 import { Typography } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 
 ChartJS.register(
   CategoryScale,
@@ -46,6 +47,8 @@ export const InventoryChart = ({ data: propData }: InventoryChartProps) => {
   }
 
   // --- 4. Datos dinámicos basados en props ---
+  const theme = useTheme()
+
   const labels = propData.map(d => d.tienda || 'N/A');
   const data = propData.map(d => d.inventario || 0);
 
@@ -56,7 +59,7 @@ export const InventoryChart = ({ data: propData }: InventoryChartProps) => {
         label: 'Inventario Actual (Pzs)',
         data,
         backgroundColor: backgroundColors.slice(0, data.length), // Asegura que los colores coincidan
-        borderColor: 'rgb(239, 68, 68)',
+        borderColor: theme.palette.divider,
         borderWidth: 1,
       },
     ],
@@ -73,13 +76,13 @@ export const InventoryChart = ({ data: propData }: InventoryChartProps) => {
     },
     scales: {
       y: {
-        ticks: { color: '#e5e7eb' },
-        grid: { color: '#374151' },
+        ticks: { color: theme.palette.text.primary },
+        grid: { color: theme.palette.divider },
         border: { display: false }, // <-- ARREGLO PARA LÍNEA BLANCA
       },
       x: {
-        ticks: { color: '#e5e7eb' },
-        grid: { color: '#374151' },
+        ticks: { color: theme.palette.text.primary },
+        grid: { color: theme.palette.divider },
         border: { display: false }, // <-- ARREGLO PARA LÍNEA BLANCA
       },
     },

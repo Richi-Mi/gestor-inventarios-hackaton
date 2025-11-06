@@ -4,6 +4,7 @@ import { LoginScreen } from './presentation/login/LoginScreen'
 import { EmployeeRegister } from './presentation/register/RegisterScreen'
 import { DashboardScreen } from './presentation/dashboard/DashboardScreen'
 import ProductsDashboard from './presentation/dashboard/ProductsDashboard'
+import SalesDashboard from './presentation/dashboard/SalesDashboard'
 import { AppBar, Button, Link, Toolbar, Typography } from '@mui/material'
 import DirectionsRunIcon from '@mui/icons-material/DirectionsRun';
 import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
@@ -25,10 +26,11 @@ const AppRouter = () => {
             </LinkD>
           </Typography>
           <Button color="inherit"> <LinkD to="/login"style={{ textDecoration: 'none', color: 'inherit' }}> Login </LinkD> </Button>
-          <Button color="inherit"> <ShoppingCartIcon /> Ventas </Button>
+          <Button color="inherit"> <LinkD to="/sales" style={{ textDecoration: 'none', color: 'inherit' }}><ShoppingCartIcon /> Ventas</LinkD> </Button>
           <Button color="inherit">
-            <InventoryRounded /> Inventario
-            
+            <LinkD to="/" style={{ textDecoration: 'none', color: 'inherit' }}>
+              <InventoryRounded /> Inventario
+            </LinkD>
           </Button>
         </Toolbar>
       </AppBar>
@@ -39,6 +41,7 @@ const AppRouter = () => {
         <Route path='/dashboard' element={ <DashboardScreen /> } />
         <Route path='/' element={ <ProductsDashboard /> } />
         <Route path='/registerProduct' element={ <ProductRegister /> } />
+        <Route path='/sales' element={ <SalesDashboard /> } />
       </Routes>
     </>
   )

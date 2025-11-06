@@ -1,13 +1,14 @@
 import { createTheme } from '@mui/material/styles'
 
-// 60-30-10 rule
-const PRIMARY = '#FFF5EE' // 60%
-const SECONDARY = '#FFDAB9' // 30%
-const ACCENT = '#FF1493' // 10%
+// 60-30-10 rule (kept as accent colors)
+const PRIMARY = '#FFF5EE' // 60% (used as light accent)
+const SECONDARY = '#FFDAB9' // 30% (used as secondary accent)
+const ACCENT = '#FF1493' // 10% (strong accent)
 
+// Dark theme palette: background is dark, accents kept as requested
 const theme = createTheme({
   palette: {
-    mode: 'light',
+    mode: 'dark',
     primary: {
       main: PRIMARY,
       contrastText: '#000'
@@ -16,62 +17,59 @@ const theme = createTheme({
       main: SECONDARY,
       contrastText: '#000'
     },
-    // accent color mapped to 'info'
     info: {
       main: ACCENT,
       contrastText: '#fff'
     },
     background: {
-      default: PRIMARY,
-      paper: SECONDARY
+      default: '#0b1020', // dark background
+      paper: '#0f1724' // slightly lighter for cards
     },
     text: {
-      primary: '#111',
-      secondary: '#333'
+      primary: '#ffffff',
+      secondary: '#cbd5e1'
     },
-    // divider color to increase contrast for <hr> and separators
-    divider: '#d97a9f'
+    divider: '#4b2b3a'
   },
   components: {
     MuiAppBar: {
       styleOverrides: {
         root: {
-          backgroundColor: SECONDARY,
-          color: '#111'
+          backgroundColor: '#0f1724',
+          color: '#ffffff'
         }
       }
     },
     MuiPaper: {
       styleOverrides: {
         root: {
-          backgroundColor: SECONDARY,
-          color: '#111'
+          backgroundColor: '#0f1724',
+          color: '#ffffff'
         }
       }
     },
     MuiDivider: {
       styleOverrides: {
         root: {
-          backgroundColor: '#d97a9f'
+          backgroundColor: '#4b2b3a'
         }
       }
     },
     MuiSvgIcon: {
       styleOverrides: {
         root: {
-          color: '#111'
+          color: '#ffffff'
         }
       }
     },
-    // Outlined inputs (TextField) focus / outline color
     MuiOutlinedInput: {
       styleOverrides: {
         root: {
           '& .MuiOutlinedInput-notchedOutline': {
-            borderColor: '#c77a99'
+            borderColor: '#4b2b3a'
           },
           '&:hover .MuiOutlinedInput-notchedOutline': {
-            borderColor: '#b85f86'
+            borderColor: ACCENT
           },
           '&.Mui-focused .MuiOutlinedInput-notchedOutline': {
             borderColor: ACCENT,
@@ -96,6 +94,28 @@ const theme = createTheme({
           color: '#fff',
           '&:hover': {
             backgroundColor: '#e10f7a'
+          }
+        }
+      }
+    },
+    MuiTableCell: {
+      styleOverrides: {
+        root: {
+          color: '#ffffff',
+          borderColor: '#4b2b3a'
+        },
+        head: {
+          backgroundColor: '#0b1020',
+          color: '#ffffff',
+          fontWeight: 600
+        }
+      }
+    },
+    MuiTableRow: {
+      styleOverrides: {
+        root: {
+          '&:hover': {
+            backgroundColor: '#132033'
           }
         }
       }

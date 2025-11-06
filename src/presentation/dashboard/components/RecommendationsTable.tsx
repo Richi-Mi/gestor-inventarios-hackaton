@@ -25,14 +25,14 @@ interface RecommendationsTableProps {
 }
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
-  color: theme.palette.grey[200],
-  borderColor: theme.palette.grey[700],
+  color: theme.palette.text.primary,
+  borderColor: theme.palette.divider,
 }));
 
 const StyledHeaderCell = styled(TableCell)(({ theme }) => ({
-  backgroundColor: theme.palette.grey[800],
-  color: theme.palette.grey[200],
-  borderColor: theme.palette.grey[700],
+  backgroundColor: theme.palette.background.paper,
+  color: theme.palette.text.primary,
+  borderColor: theme.palette.divider,
   fontWeight: 'bold', // Estilo de tu archivo original
 }));
 
@@ -48,7 +48,7 @@ export const RecommendationsTable = ({ data: propData }: RecommendationsTablePro
   
   // --- 4. Manejo de datos vacíos ---
   if (!propData || propData.length === 0) {
-    return <Typography sx={{color: 'grey.500', height: 100, display: 'grid', placeItems: 'center'}}>No hay datos de predicción.</Typography>;
+    return <Typography sx={{color: 'text.secondary', height: 100, display: 'grid', placeItems: 'center'}}>No hay datos de predicción.</Typography>;
   }
 
   return (
@@ -70,7 +70,6 @@ export const RecommendationsTable = ({ data: propData }: RecommendationsTablePro
             <TableRow
               key={`${row.TIENDA}-${row.UNIDAD_DE_NEGOCIO}-${row.MES}`}
               hover
-              sx={{ '&:hover': { backgroundColor: 'grey.800' } }}
             >
               <StyledTableCell>{row.TIENDA}</StyledTableCell>
               <StyledTableCell>{row.UNIDAD_DE_NEGOCIO}</StyledTableCell>

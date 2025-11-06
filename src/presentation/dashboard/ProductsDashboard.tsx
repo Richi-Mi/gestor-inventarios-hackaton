@@ -32,32 +32,36 @@ export const ProductsDashboard: React.FC = () => {
   useEffect(() => {
     setLoading(true)
     // Leer empleado desde localStorage. Suposición: clave 'empleado'. Si no existe, no romper.
+    let tiendaId = null
     try {
       const raw = localStorage.getItem('empleado')
       if (raw) {
         const parsed = JSON.parse(raw)
         setUser({ nombre: parsed.nombre, apellido: parsed.apellido, puesto: parsed.puesto, tienda: parsed.tienda })
+        tiendaId = parsed.tienda ?? parsed.sucursalId ?? null
       }
     } catch (err) {
       console.warn('No se pudo parsear empleado desde localStorage', err)
     }
     getProducts()
       .then((data: any) => {
-        // Asumimos que data puede venir como { data: [...] } o el propio array
         const list = Array.isArray(data) ? data : (data?.data ?? data?.products ?? [])
         setProducts(list)
-        // Inicializar mapa de inventarios a partir de posibles campos
+        // Leer inventario local por tienda
+        let localInv: Record<string, number> = {}
+        if (tiendaId) {
+          const rawInv = localStorage.getItem(`inventario_${tiendaId}`)
+          if (rawInv) {
+            try {
+              localInv = JSON.parse(rawInv)
+            } catch {}
+          }
+        }
+        // Inicializar mapa de inventarios: si hay local, usarlo; si no, usar 0
         const map: Record<string, number> = {}
         list.forEach((p: any) => {
           const id = p.id ?? p.nombreModelo
-          let inv = 0
-          // buscar claves comunes
-          if (p.stock != null) inv = Number(p.stock)
-          else if (p.inventory != null) inv = Number(p.inventory)
-          else if (p.cantidad != null) inv = Number(p.cantidad)
-          else if (p.skus && p.skus.length && p.skus[0].stock != null) inv = Number(p.skus[0].stock)
-          else if (p.skus && !Array.isArray(p.skus) && p.skus.stock != null) inv = Number(p.skus.stock)
-          map[id] = Number.isFinite(inv) ? inv : 0
+          map[id] = localInv[id] ?? 0
         })
         setInventoryMap(map)
       })
@@ -98,30 +102,21 @@ export const ProductsDashboard: React.FC = () => {
     changeInventory(key, Math.max(0, Math.floor(n)))
   }
 
-  const handleSaveInventories = async () => {
-    // Construir payload: [{ productId, skuId?, inventory }]
-    const payload: any[] = []
-    products.forEach((p: any) => {
-      const key = p.id ?? p.nombreModelo
-      // sólo incluir si hay un valor en inventoryMap (se inicializó antes)
-      if (inventoryMap[key] == null) return
-      // intentar obtener skuId de formas comunes
-      let skuId: any = undefined
-      if (p.skus) {
-        const s = Array.isArray(p.skus) ? p.skus[0] : p.skus
-        skuId = s?.id ?? s?.skuId ?? s?.codigoBarras ?? s?.codigo ?? undefined
-      } else if (p.sku) {
-        skuId = p.sku.id ?? p.sku.skuId ?? p.sku.codigoBarras ?? undefined
-      }
-
-      payload.push({ productId: p.id ?? null, skuId, inventory: inventoryMap[key] })
-    })
+  const handleSaveInventories = () => {
+    // Guardar inventario local por tienda
+    let tiendaId = null
     try {
-      const resp = await updateProductInventories(payload)
-      alert(resp.message || 'Inventarios actualizados')
-    } catch (err) {
-      console.error('Error updating inventories', err)
-      alert('Error actualizando inventarios')
+      const raw = localStorage.getItem('empleado')
+      if (raw) {
+        const parsed = JSON.parse(raw)
+        tiendaId = parsed.tienda ?? parsed.sucursalId ?? null
+      }
+    } catch {}
+    if (tiendaId) {
+      localStorage.setItem(`inventario_${tiendaId}` , JSON.stringify(inventoryMap))
+      alert('Inventario guardado para tienda: ' + tiendaId)
+    } else {
+      alert('No se pudo identificar la tienda para guardar el inventario')
     }
   }
   

@@ -17,6 +17,7 @@ import VisibilityOff from '@mui/icons-material/VisibilityOff'
 import { Link as LinkD, Route, Routes, useNavigate } from 'react-router-dom'
 import { doLogin } from '../../api/logisticAPI'
 import { useForm } from '../../hooks/useForm'
+import { useTheme } from '@mui/material/styles'
 
 const formLoginState = {
   username: '',
@@ -29,6 +30,7 @@ export const LoginScreen: React.FC = () => {
   const [errors, setErrors] = useState<{ username?: string; password?: string }>({})
 
   const navigate = useNavigate()
+  const theme = useTheme()
 
   const validate = () => {
     const e: typeof errors = {}
@@ -63,13 +65,14 @@ export const LoginScreen: React.FC = () => {
         display: 'flex',
         alignItems: 'center',
         justifyContent: 'center',
-        bgcolor: '#f5f5f5',
-        p: 2
+        bgcolor: theme.palette.background.default,
+        p: 2,
+        color: theme.palette.text.primary
       }}
     >
-      <Paper elevation={3} sx={{ width: 380, p: 4 }}>
+      <Paper elevation={3} sx={{ width: 380, p: 4, bgcolor: theme.palette.background.paper, color: theme.palette.text.primary }}>
         <Box sx={{ display: 'flex', flexDirection: 'column', alignItems: 'center', mb: 2 }}>
-          <Avatar sx={{ bgcolor: 'primary.main', mb: 1 }}>
+          <Avatar sx={{ bgcolor: 'info.main', color: 'info.contrastText', mb: 1 }}>
             <LockOutlinedIcon />
           </Avatar>
           <Typography variant="h6">Iniciar sesión</Typography>
@@ -101,7 +104,7 @@ export const LoginScreen: React.FC = () => {
             InputProps={{
               endAdornment: (
                 <InputAdornment position="end">
-                  <IconButton onClick={() => setShowPassword((s) => !s)} edge="end" size="large">
+                  <IconButton onClick={() => setShowPassword((s) => !s)} edge="end" size="large" color="inherit">
                     {showPassword ? <VisibilityOff /> : <Visibility />}
                   </IconButton>
                 </InputAdornment>

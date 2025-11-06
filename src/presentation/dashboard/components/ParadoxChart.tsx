@@ -8,6 +8,7 @@ import {
   BubbleController, // <-- ¡ARREGLO CRÍTICO! Faltaba registrar este controlador
 } from 'chart.js';
 import { Typography } from '@mui/material';
+import { useTheme } from '@mui/material/styles';
 
 // Se necesita registrar el controlador de Bubble
 ChartJS.register(LinearScale, PointElement, Tooltip, Legend, BubbleController);
@@ -30,19 +31,21 @@ export const ParadoxChart = ({ data: propData }: ParadoxChartProps) => {
     return <Typography sx={{color: 'grey.500', height: 400, display: 'grid', placeItems: 'center'}}>No hay datos de paradoja para este año.</Typography>;
   }
 
+  const theme = useTheme()
+
   // --- 4. Datos Dinámicos (Convertir JSON a Burbujas) ---
   // ¡YA NO ES ESTÁTICO!
   const chartBubbles = propData.map(d => {
     // Definimos el color y el grupo basado en la lógica de la "paradoja"
-    let backgroundColor = 'rgba(52, 211, 153, 0.7)'; // Verde (Estrella)
+  let backgroundColor = `${theme.palette.success.main}b3` || 'rgba(52, 211, 153, 0.7)'; // Verde (Estrella)
     let label = 'Tiendas Estrella (Eficientes)';
     
     // Lógica simple (ajustar umbrales según sea necesario)
     if (d.inventario > 6000000 && d.ventas < 2000000) { 
-      backgroundColor = 'rgba(239, 68, 68, 0.7)'; // Rojo (Sobreinventario)
+      backgroundColor = `${theme.palette.error.main}b3` || 'rgba(239, 68, 68, 0.7)'; // Rojo (Sobreinventario)
       label = 'Sobreinventario (Mover stock)';
     } else if (d.ventas > 3000000 && d.inventario < 6000000) {
-      backgroundColor = 'rgba(234, 179, 8, 0.7)'; // Amarillo (Venta Perdida)
+      backgroundColor = `${theme.palette.warning.main}b3` || 'rgba(234, 179, 8, 0.7)'; // Amarillo (Venta Perdida)
       label = 'Venta Perdida (Enviar stock)';
     }
 
@@ -62,17 +65,17 @@ export const ParadoxChart = ({ data: propData }: ParadoxChartProps) => {
       {
         label: 'Sobreinventario',
         data: chartBubbles.filter(b => b.label === 'Sobreinventario (Mover stock)'),
-        backgroundColor: 'rgba(239, 68, 68, 0.7)'
+        backgroundColor: `${theme.palette.error.main}b3`
       },
       {
         label: 'Venta Perdida',
         data: chartBubbles.filter(b => b.label === 'Venta Perdida (Enviar stock)'),
-        backgroundColor: 'rgba(234, 179, 8, 0.7)'
+        backgroundColor: `${theme.palette.warning.main}b3`
       },
       {
         label: 'Tiendas Estrella',
         data: chartBubbles.filter(b => b.label === 'Tiendas Estrella (Eficientes)'),
-        backgroundColor: 'rgba(52, 211, 153, 0.7)'
+        backgroundColor: `${theme.palette.success.main}b3`
       }
     ],
   };
@@ -84,7 +87,7 @@ export const ParadoxChart = ({ data: propData }: ParadoxChartProps) => {
       legend: {
         position: 'bottom' as const,
         labels: {
-          color: '#e5e7eb',
+          color: theme.palette.text.primary,
         },
       },
       tooltip: {
@@ -102,20 +105,20 @@ export const ParadoxChart = ({ data: propData }: ParadoxChartProps) => {
         title: {
           display: true,
           text: 'Inventario (Piezas)',
-          color: '#e5e7eb',
+          color: theme.palette.text.primary,
         },
-        ticks: { color: '#e5e7eb' },
-        grid: { color: '#374151' },
+        ticks: { color: theme.palette.text.primary },
+        grid: { color: theme.palette.divider },
         border: { display: false }, // <-- ARREGLO PARA LÍNEA BLANCA
       },
       x: {
         title: {
           display: true,
           text: 'Ventas (Piezas)',
-          color: '#e5e7eb',
+          color: theme.palette.text.primary,
         },
-        ticks: { color: '#e5e7eb' },
-        grid: { color: '#374151' },
+        ticks: { color: theme.palette.text.primary },
+        grid: { color: theme.palette.divider },
         border: { display: false }, // <-- ARREGLO PARA LÍNEA BLANCA
       },
     },

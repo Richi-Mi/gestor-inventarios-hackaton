@@ -74,10 +74,10 @@ const normalizePredictionRow = (r: any): PredictionRow => {
 // ---------------- FIN DE TIPOS ----------------
 
 const StyledPaper = styled(Paper)(({ theme }) => ({
-  backgroundColor: theme.palette.grey[800],
-  padding: theme.spacing(3),
-  borderRadius: theme.shape.borderRadius,
-  border: `1px solid ${theme.palette.grey[700]}`,
+  backgroundColor: theme.palette.background.paper,
+  padding: theme.spacing(3),
+  borderRadius: theme.shape.borderRadius,
+  border: `1px solid ${theme.palette.divider}`,
 }));
 
 

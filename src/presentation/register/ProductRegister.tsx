@@ -19,6 +19,7 @@ import AttachMoneyIcon from '@mui/icons-material/AttachMoney'
 import { useForm } from '../../hooks/useForm';
 import { doCreateProduct } from '../../api/logisticAPI';
 import { useNavigate } from 'react-router-dom'
+import { useTheme } from '@mui/material/styles'
 
 const initialFormState = {
   nombreModelo: '',
@@ -33,6 +34,8 @@ const initialFormState = {
 
 export const ProductRegister: React.FC = () => {
   const { nombreModelo, descripcion, marca, categoria, codigoBarras, talla, color, precioVenta, onInputChange, onResetForm } = useForm(initialFormState);
+
+  const theme = useTheme()
 
   const [errors, setErrors] = useState<Record<string, string>>({})
   const navigate = useNavigate()
@@ -81,8 +84,8 @@ export const ProductRegister: React.FC = () => {
   }
 
   return (
-    <Box sx={{ minHeight: '100vh', p: 2, display: 'flex', alignItems: 'center', justifyContent: 'center', bgcolor: '#f5f5f5' }}>
-      <Paper sx={{ width: 'min(1100px, 95%)', p: 4 }} elevation={3}>
+    <Box sx={{ minHeight: '100vh', p: 2, display: 'flex', alignItems: 'center', justifyContent: 'center', bgcolor: theme.palette.background.default, color: theme.palette.text.primary }}>
+      <Paper sx={{ width: 'min(1100px, 95%)', p: 4, bgcolor: theme.palette.background.paper, color: theme.palette.text.primary }} elevation={3}>
         <Typography variant="h6" sx={{ mb: 2 }}>
           Registro de Modelo y SKU inicial
         </Typography>
@@ -103,7 +106,7 @@ export const ProductRegister: React.FC = () => {
                   InputProps={{
                     startAdornment: (
                       <InputAdornment position="start">
-                        <DriveFileRenameOutlineIcon fontSize="small" />
+            <DriveFileRenameOutlineIcon fontSize="small" sx={{ color: 'text.secondary' }} />
                       </InputAdornment>
                     )
                   }}
@@ -120,7 +123,7 @@ export const ProductRegister: React.FC = () => {
                   InputProps={{
                     startAdornment: (
                       <InputAdornment position="start">
-                        <DescriptionIcon fontSize="small" />
+            <DescriptionIcon fontSize="small" sx={{ color: 'text.secondary' }} />
                       </InputAdornment>
                     )
                   }}
@@ -137,7 +140,7 @@ export const ProductRegister: React.FC = () => {
                   InputProps={{
                     startAdornment: (
                       <InputAdornment position="start">
-                        <BusinessIcon fontSize="small" />
+            <BusinessIcon fontSize="small" sx={{ color: 'text.secondary' }} />
                       </InputAdornment>
                     )
                   }}
@@ -154,7 +157,7 @@ export const ProductRegister: React.FC = () => {
                   InputProps={{
                     startAdornment: (
                       <InputAdornment position="start">
-                        <CategoryIcon fontSize="small" />
+            <CategoryIcon fontSize="small" sx={{ color: 'text.secondary' }} />
                       </InputAdornment>
                     )
                   }}
@@ -176,7 +179,7 @@ export const ProductRegister: React.FC = () => {
                   InputProps={{
                     startAdornment: (
                       <InputAdornment position="start">
-                        <QrCodeIcon fontSize="small" />
+            <QrCodeIcon fontSize="small" sx={{ color: 'text.secondary' }} />
                       </InputAdornment>
                     )
                   }}
@@ -193,7 +196,7 @@ export const ProductRegister: React.FC = () => {
                   InputProps={{
                     startAdornment: (
                       <InputAdornment position="start">
-                        <StraightenIcon fontSize="small" />
+            <StraightenIcon fontSize="small" sx={{ color: 'text.secondary' }} />
                       </InputAdornment>
                     )
                   }}
@@ -210,7 +213,7 @@ export const ProductRegister: React.FC = () => {
                   InputProps={{
                     startAdornment: (
                       <InputAdornment position="start">
-                        <ColorLensIcon fontSize="small" />
+            <ColorLensIcon fontSize="small" sx={{ color: 'text.secondary' }} />
                       </InputAdornment>
                     )
                   }}
@@ -227,7 +230,7 @@ export const ProductRegister: React.FC = () => {
                   InputProps={{
                     startAdornment: (
                       <InputAdornment position="start">
-                        <AttachMoneyIcon fontSize="small" />
+            <AttachMoneyIcon fontSize="small" sx={{ color: 'text.secondary' }} />
                       </InputAdornment>
                     )
                   }}

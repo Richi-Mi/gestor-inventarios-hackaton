@@ -11,6 +11,7 @@ import {
   Filler
 } from 'chart.js';
 import { Typography } from '@mui/material'; // Importar Typography para el mensaje
+import { useTheme } from '@mui/material/styles';
 
 ChartJS.register(
   CategoryScale,
@@ -44,14 +45,16 @@ export const SalesChart = ({ data: propData }: SalesChartProps) => {
   const labels = propData.map(d => d.mes || 'N/A');
   const data = propData.map(d => d.ventas || 0);
 
+  const theme = useTheme()
+
   const chartData = {
     labels,
     datasets: [
       {
         label: 'Ventas (Pzs)', // Label genérico
         data,
-        borderColor: 'rgb(52, 211, 153)',
-        backgroundColor: 'rgba(52, 211, 153, 0.1)',
+        borderColor: theme.palette.info.main,
+        backgroundColor: `${theme.palette.info.main}22`,
         tension: 0.1,
         fill: true,
       },
@@ -64,19 +67,19 @@ export const SalesChart = ({ data: propData }: SalesChartProps) => {
     plugins: {
       legend: {
         labels: {
-          color: '#e5e7eb',
+          color: theme.palette.text.primary,
         },
       },
     },
     scales: {
       y: {
-        ticks: { color: '#e5e7eb' },
-        grid: { color: '#374151' },
+        ticks: { color: theme.palette.text.primary },
+        grid: { color: theme.palette.divider },
         border: { display: false }, // <-- ARREGLO PARA LÍNEA BLANCA
       },
       x: {
-        ticks: { color: '#e5e7eb' },
-        grid: { color: '#374151' },
+        ticks: { color: theme.palette.text.primary },
+        grid: { color: theme.palette.divider },
         border: { display: false }, // <-- ARREGLO PARA LÍNEA BLANCA
       },
     },

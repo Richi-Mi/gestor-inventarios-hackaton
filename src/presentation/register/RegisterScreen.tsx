@@ -11,6 +11,7 @@ import {
   MenuItem,
   Stack
 } from '@mui/material'
+import { useTheme } from '@mui/material/styles'
 import { useForm } from '../../hooks/useForm';
 import { doRegister, getStores } from '../../api/logisticAPI';
 import { useNavigate } from 'react-router-dom';
@@ -60,6 +61,7 @@ export const EmployeeRegister: React.FC = () => {
   const [stores, setStores] = useState<Store[]>([])
   const [errors, setErrors] = useState<Record<string, string>>({})
   const navigate = useNavigate();
+  const theme = useTheme();
 
   useEffect(() => {
     // Reemplazar con la llamada real a la API para obtener tiendas
@@ -106,8 +108,8 @@ export const EmployeeRegister: React.FC = () => {
   }
 
   return (
-    <Box sx={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', p: 2, bgcolor: '#f5f5f5' }}>
-      <Paper sx={{ width: 480, p: 4 }} elevation={3}>
+    <Box sx={{ minHeight: '100vh', display: 'flex', alignItems: 'center', justifyContent: 'center', p: 2, bgcolor: theme.palette.background.default, color: theme.palette.text.primary }}>
+      <Paper sx={{ width: 480, p: 4, bgcolor: theme.palette.background.paper, color: theme.palette.text.primary }} elevation={3}>
         <Typography variant="h6" sx={{ mb: 2 }}>
           Registro de empleado
         </Typography>
