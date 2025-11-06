@@ -13,6 +13,7 @@ import {
 } from '@mui/material'
 import { useForm } from '../../hooks/useForm';
 import { doRegister, getStores } from '../../api/logisticAPI';
+import { useNavigate } from 'react-router-dom';
 
 const roles = [
   "Director general",
@@ -58,9 +59,7 @@ export const EmployeeRegister: React.FC = () => {
 
   const [stores, setStores] = useState<Store[]>([])
   const [errors, setErrors] = useState<Record<string, string>>({})
-
-  console.log(stores);
-
+  const navigate = useNavigate();
 
   useEffect(() => {
     // Reemplazar con la llamada real a la API para obtener tiendas
@@ -69,12 +68,18 @@ export const EmployeeRegister: React.FC = () => {
 
   const validate = () => {
     const e: Record<string, string> = {}
-    if (!nombre.trim()) e.nombre = 'Nombre requerido'
-    if (!apellido.trim()) e.apellido = 'Apellido requerido'
-    if (!tiendaId) e.tiendaId = 'Tienda requerida'
-    if (!puesto.trim()) e.puesto = 'Puesto requerido'
-    if (!usuario.trim()) e.usuario = 'Usuario requerido'
-    if (!contrasena) e.contrasena = 'Contraseña requerida'
+    if (!nombre.trim()) 
+      e.nombre = 'Nombre requerido'
+    if (!apellido.trim()) 
+      e.apellido = 'Apellido requerido'
+    if (!tiendaId) 
+      e.tiendaId = 'Tienda requerida'
+    if (!puesto.trim()) 
+      e.puesto = 'Puesto requerido'
+    if (!usuario.trim()) 
+      e.usuario = 'Usuario requerido'
+    if (!contrasena) 
+      e.contrasena = 'Contraseña requerida'
     setErrors(e)
     return Object.keys(e).length === 0
   }
@@ -91,8 +96,9 @@ export const EmployeeRegister: React.FC = () => {
     }
     doRegister(payload)
       .then((response) => {
-        alert('Empleado registrado exitosamente')
+        alert(response.message || 'Empleado registrado con éxito')
         onResetForm()
+        navigate('/login');
       })
       .catch((error) => {
         console.error('Error al registrar empleado:', error)
@@ -163,16 +169,6 @@ export const EmployeeRegister: React.FC = () => {
               </Select>
               {errors.puesto ? <Typography color="error" variant="caption">{errors.puesto}</Typography> : null} 
             </FormControl>
-
-            <TextField
-              label='Puesto (ej: "Vendedor Piso", "Gerente")'
-              value={puesto}
-              name='puesto'
-              onChange={onInputChange}
-              error={!!errors.puesto}
-              helperText={errors.puesto}
-              fullWidth
-            />
 
             <TextField
               label="Usuario"

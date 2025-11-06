@@ -8,17 +8,27 @@ import {
   TextField,
   Button,
   IconButton,
-  InputAdornment
+  InputAdornment,
+  Link
 } from '@mui/material'
 import LockOutlinedIcon from '@mui/icons-material/LockOutlined'
 import Visibility from '@mui/icons-material/Visibility'
 import VisibilityOff from '@mui/icons-material/VisibilityOff'
+import { Link as LinkD, Route, Routes, useNavigate } from 'react-router-dom'
+import { doLogin } from '../../api/logisticAPI'
+import { useForm } from '../../hooks/useForm'
+
+const formLoginState = {
+  username: '',
+  password: ''
+}
 
 export const LoginScreen: React.FC = () => {
-  const [username, setUsername] = useState('')
-  const [password, setPassword] = useState('')
+  const { username, password, onInputChange, onResetForm} = useForm(formLoginState)
   const [showPassword, setShowPassword] = useState(false)
   const [errors, setErrors] = useState<{ username?: string; password?: string }>({})
+
+  const navigate = useNavigate()
 
   const validate = () => {
     const e: typeof errors = {}
@@ -31,8 +41,19 @@ export const LoginScreen: React.FC = () => {
   const handleSubmit = (event: React.FormEvent) => {
     event.preventDefault()
     if (!validate()) return
-    // TODO: integrar con la API de autenticación
-    console.log({ username, password })
+    doLogin({
+      username,
+      password
+    }).then((response) => {
+      localStorage.setItem('token', response.token)
+      localStorage.setItem('empleado', JSON.stringify(response.empleado))
+
+      alert('Login exitoso')
+      navigate('/')
+
+    }).catch((error) => {
+      console.error('Error en login:', error)
+    })
   }
 
   return (
@@ -59,8 +80,9 @@ export const LoginScreen: React.FC = () => {
             label="Usuario"
             fullWidth
             margin="normal"
+            name='username'
             value={username}
-            onChange={(e) => setUsername(e.target.value)}
+            onChange={ onInputChange }
             error={!!errors.username}
             helperText={errors.username}
             autoFocus
@@ -71,8 +93,9 @@ export const LoginScreen: React.FC = () => {
             type={showPassword ? 'text' : 'password'}
             fullWidth
             margin="normal"
+            name='password'
             value={password}
-            onChange={(e) => setPassword(e.target.value)}
+            onChange={ onInputChange}
             error={!!errors.password}
             helperText={errors.password}
             InputProps={{
@@ -86,10 +109,12 @@ export const LoginScreen: React.FC = () => {
             }}
           />
 
-          <Button type="submit" variant="contained" color="primary" fullWidth sx={{ mt: 2 }}>
+          <Button type="submit" variant="contained" color="primary" fullWidth sx={{ mt: 2, mb: 3 }}>
             Entrar
           </Button>
         </Box>
+
+        <Button> <LinkD to="/register"> ¿No tienes cuenta? </LinkD> </Button>
       </Paper>
     </Box>
   )

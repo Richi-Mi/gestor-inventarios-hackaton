@@ -1,7 +1,5 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import {
-  AppBar,
-  Toolbar,
   Typography,
   Button,
   Container,
@@ -11,9 +9,7 @@ import {
   CardMedia,
   Box,
 } from '@mui/material';
-import DirectionsRunIcon from '@mui/icons-material/DirectionsRun';
-import ShoppingCartIcon from '@mui/icons-material/ShoppingCart';
-
+import { useNavigate } from 'react-router-dom';
 // 1. Interfaz para Producto (Tipo de dato)
 interface Producto {
   id: number;
@@ -31,22 +27,18 @@ const productos: Producto[] = [
 
 // 3. Declaración del componente como React.FC
 export const HomeScreen: React.FC = () => {
+
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    const token = localStorage.getItem('token');
+    if (!token) {
+      navigate('/login');
+    }
+  }, [])
+
   return (
     <>
-      {/* Barra de Navegación (Header) */}
-      <AppBar position="static" color="primary">
-        <Toolbar>
-          <ShoppingCartIcon sx={{ mr: 1 }} />
-          <Typography variant="h6" component="div" sx={{ flexGrow: 1 }}>
-            Calzando Mexico.
-          </Typography>
-          <Button color="inherit">Colección</Button>
-          <Button color="inherit">Ofertas</Button>
-          <Button color="inherit">
-            <ShoppingCartIcon />
-          </Button>
-        </Toolbar>
-      </AppBar>
 
       {/* Sección Principal (Hero Section) */}
       <Box

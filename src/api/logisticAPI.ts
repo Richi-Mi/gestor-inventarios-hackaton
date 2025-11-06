@@ -11,13 +11,9 @@ const doGETRequest = async (endpoint : string) => {
     return await req.json();
 }
 
-const doPOSTRequest = async (endpoint : string, data: any) => {
-    console.log(`${BASE_URL}${endpoint}`);
-    console.log(data);
-    
-
+const doPOSTRequest = async (endpoint : string, data: any, method: string = 'POST') => {
     const req = await fetch(`${BASE_URL}${endpoint}`, {
-        method: 'POST',
+        method,
         headers: {
             'Content-Type': 'application/json'
         },
@@ -30,4 +26,26 @@ export const getStores = () => {
 }
 export const doRegister = (data: any) => {
     return doPOSTRequest('/user/', data);
+}
+export const doLogin = (data: any) => {
+    return doPOSTRequest('/user/', data, 'PUT');
+}
+
+// Crear un nuevo producto/modelo con su SKU inicial
+export const doCreateProduct = (data: any) => {
+    // Asumimos el endpoint /product; si tu API usa otro, ajusta aquí
+    return doPOSTRequest('/producto', data);
+}
+
+export const getProducts = () => {
+    // GET list of products
+    return doGETRequest('/producto');
+}
+
+// Actualizar inventarios en bloque. Payload esperado: [{ productId, skuId?, inventory }]
+export const updateProductInventories = (data: any) => {
+    console.log(data);
+    
+    // Ajusta el endpoint según tu API real    
+    return doPOSTRequest('/producto/updateInventory', data, 'PUT');
 }
