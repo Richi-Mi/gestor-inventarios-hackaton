@@ -5,8 +5,24 @@ import {
   TableContainer,
   TableHead,
   TableRow,
-  styled
+  styled,
+  Typography
 } from '@mui/material';
+
+// --- 1. Interfaz para la fila de predicción ---
+// (Debe coincidir con la de DashboardScreen.tsx y el JSON)
+interface PredictionRow {
+  TIENDA: string;
+  UNIDAD_DE_NEGOCIO: string;
+  MES: string;
+  PREDICCION_PZS: number;
+  INVENTARIO_SUGERIDO: number;
+}
+
+// --- 2. Interfaz para las props del componente ---
+interface RecommendationsTableProps {
+  data: PredictionRow[];
+}
 
 const StyledTableCell = styled(TableCell)(({ theme }) => ({
   color: theme.palette.grey[200],
@@ -17,58 +33,59 @@ const StyledHeaderCell = styled(TableCell)(({ theme }) => ({
   backgroundColor: theme.palette.grey[800],
   color: theme.palette.grey[200],
   borderColor: theme.palette.grey[700],
+  fontWeight: 'bold', // Estilo de tu archivo original
 }));
 
-const data = [
-  {
-    store: 'Tienda 12',
-    unit: 'CALZADO CASUAL MUJER',
-    prediction: '55,200',
-    action: 'Preparar stock MÁXIMO',
-    status: 'success'
-  },
-  {
-    store: 'Tienda 8',
-    unit: 'CALZADO NIÑOS',
-    prediction: '1,150',
-    action: '¡NO ENVIAR! (Riesgo de Sobreinventario)',
-    status: 'error'
-  },
-  {
-    store: 'Tienda 16',
-    unit: 'CALZADO CASUAL HOMBRE',
-    prediction: '18,300',
-    action: 'Enviar stock de seguridad',
-    status: 'warning'
-  }
-];
+// Función para determinar el color/estado basado en la predicción
+const getStatusColor = (prediction: number) => {
+  if (prediction > 50000) return 'success.light'; // Números altos en verde
+  if (prediction < 5000) return 'error.light';   // Números bajos en rojo
+  return 'warning.light';                 // Números medios en amarillo
+};
 
-export const RecommendationsTable = () => {
+// --- 3. El componente ahora acepta props ---
+export const RecommendationsTable = ({ data: propData }: RecommendationsTableProps) => {
+  
+  // --- 4. Manejo de datos vacíos ---
+  if (!propData || propData.length === 0) {
+    return <Typography sx={{color: 'grey.500', height: 100, display: 'grid', placeItems: 'center'}}>No hay datos de predicción.</Typography>;
+  }
+
   return (
-    <TableContainer>
-      <Table>
+    // Añadimos maxHeight para permitir scroll si hay muchos datos
+    <TableContainer sx={{ maxHeight: 440 }}> 
+      <Table stickyHeader> {/* stickyHeader para que el encabezado se quede fijo */}
         <TableHead>
           <TableRow>
             <StyledHeaderCell>Tienda</StyledHeaderCell>
             <StyledHeaderCell>Unidad de Negocio</StyledHeaderCell>
+            <StyledHeaderCell>Mes (Pronóstico)</StyledHeaderCell>
             <StyledHeaderCell>Venta Predicha (Pzs)</StyledHeaderCell>
-            <StyledHeaderCell>Acción Recomendada</StyledHeaderCell>
+            <StyledHeaderCell>Inventario Sugerido</StyledHeaderCell>
           </TableRow>
         </TableHead>
         <TableBody>
-          {data.map((row) => (
+          {/* --- 5. Mapeamos sobre los datos de las props --- */}
+          {propData.map((row) => (
             <TableRow
-              key={row.store}
+              key={`${row.TIENDA}-${row.UNIDAD_DE_NEGOCIO}-${row.MES}`}
               hover
               sx={{ '&:hover': { backgroundColor: 'grey.800' } }}
             >
-              <StyledTableCell>{row.store}</StyledTableCell>
-              <StyledTableCell>{row.unit}</StyledTableCell>
-              <StyledTableCell sx={{ color: `${row.status}.400` }}>
-                {row.prediction}
+              <StyledTableCell>{row.TIENDA}</StyledTableCell>
+              <StyledTableCell>{row.UNIDAD_DE_NEGOCIO}</StyledTableCell>
+              <StyledTableCell>{row.MES}</StyledTableCell>
+              <StyledTableCell sx={{ 
+                color: getStatusColor(row.PREDICCION_PZS),
+                fontWeight: 500 
+              }}>
+                {row.PREDICCION_PZS.toLocaleString()}
               </StyledTableCell>
-              <StyledTableCell sx={{ color: `${row.status}.400` }}>
-                {row.action}
+              <StyledTableCell sx={{ 
+                color: getStatusColor(row.PREDICCION_PZS),
+                fontWeight: 500 
+              }}>
+                {row.INVENTARIO_SUGERIDO.toLocaleString()}
               </StyledTableCell>
             </TableRow>
           ))}

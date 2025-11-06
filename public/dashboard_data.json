@@ -1,0 +1,4735 @@
+{
+    "2023": {
+        "kpis": {
+            "totalVentasPzs": "35.88 M",
+            "totalInventarioPzs": "85.41 M",
+            "rotacionInventario": "0.4x"
+        },
+        "estacionalidad": [
+            {
+                "mes": "Enero",
+                "ventas": 2250416.0
+            },
+            {
+                "mes": "Febrero",
+                "ventas": 2240137.0
+            },
+            {
+                "mes": "Marzo",
+                "ventas": 2955332.0
+            },
+            {
+                "mes": "Abril",
+                "ventas": 2706007.0
+            },
+            {
+                "mes": "Mayo",
+                "ventas": 2776769.0
+            },
+            {
+                "mes": "Junio",
+                "ventas": 2592744.0
+            },
+            {
+                "mes": "Julio",
+                "ventas": 2777207.0
+            },
+            {
+                "mes": "Agosto",
+                "ventas": 3327934.0
+            },
+            {
+                "mes": "Septiembre",
+                "ventas": 2545836.0
+            },
+            {
+                "mes": "Octubre",
+                "ventas": 2814686.0
+            },
+            {
+                "mes": "Noviembre",
+                "ventas": 3304856.0
+            },
+            {
+                "mes": "Diciembre",
+                "ventas": 5592175.0
+            }
+        ],
+        "topInventarioTiendas": [
+            {
+                "tienda": "Tienda 8",
+                "inventario": 8366923.0
+            },
+            {
+                "tienda": "Tienda 16",
+                "inventario": 7953013.0
+            },
+            {
+                "tienda": "Tienda 12",
+                "inventario": 7684390.0
+            },
+            {
+                "tienda": "Tienda 4",
+                "inventario": 7221036.0
+            },
+            {
+                "tienda": "Tienda 15",
+                "inventario": 6547434.0
+            }
+        ],
+        "ventasPorUnidadNegocio": [
+            {
+                "categoria": "TENNIS DEPORTIVOS",
+                "ventas": 12085222.0
+            },
+            {
+                "categoria": "CALZADO CASUAL HOMBRE",
+                "ventas": 10118063.0
+            },
+            {
+                "categoria": "CALZADO CASUAL MUJER",
+                "ventas": 9874676.0
+            },
+            {
+                "categoria": "CALZADO NIÑOS",
+                "ventas": 3389951.0
+            },
+            {
+                "categoria": "ACCESORIOS",
+                "ventas": 416187.0
+            }
+        ],
+        "paradojaTiendas": [
+            {
+                "TIENDA": "Tienda 1",
+                "ventas": 906066.0,
+                "inventario": 2608006.0
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "ventas": 1584538.0,
+                "inventario": 4049144.0
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "ventas": 1295362.0,
+                "inventario": 3403478.0
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "ventas": 4096845.0,
+                "inventario": 7684390.0
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "ventas": 1501947.0,
+                "inventario": 4128275.0
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "ventas": 543289.0,
+                "inventario": 2836352.0
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "ventas": 2945321.0,
+                "inventario": 6547434.0
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "ventas": 3569190.0,
+                "inventario": 7953013.0
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "ventas": 740989.0,
+                "inventario": 2937781.0
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "ventas": 2332033.0,
+                "inventario": 5429187.0
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "ventas": 1806049.0,
+                "inventario": 3465916.0
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "ventas": 3518295.0,
+                "inventario": 7221036.0
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "ventas": 1841201.0,
+                "inventario": 5163260.0
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "ventas": 1264994.0,
+                "inventario": 3675261.0
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "ventas": 2205955.0,
+                "inventario": 4776503.0
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "ventas": 3975773.0,
+                "inventario": 8366923.0
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "ventas": 1756252.0,
+                "inventario": 5165248.0
+            }
+        ]
+    },
+    "2024": {
+        "kpis": {
+            "totalVentasPzs": "35.92 M",
+            "totalInventarioPzs": "92.04 M",
+            "rotacionInventario": "0.4x"
+        },
+        "estacionalidad": [
+            {
+                "mes": "Enero",
+                "ventas": 2098433.0
+            },
+            {
+                "mes": "Febrero",
+                "ventas": 2442036.0
+            },
+            {
+                "mes": "Marzo",
+                "ventas": 3040370.0
+            },
+            {
+                "mes": "Abril",
+                "ventas": 2457429.0
+            },
+            {
+                "mes": "Mayo",
+                "ventas": 2609369.0
+            },
+            {
+                "mes": "Junio",
+                "ventas": 2565800.0
+            },
+            {
+                "mes": "Julio",
+                "ventas": 2735946.0
+            },
+            {
+                "mes": "Agosto",
+                "ventas": 3325320.0
+            },
+            {
+                "mes": "Septiembre",
+                "ventas": 2678114.0
+            },
+            {
+                "mes": "Octubre",
+                "ventas": 3137847.0
+            },
+            {
+                "mes": "Noviembre",
+                "ventas": 3416425.0
+            },
+            {
+                "mes": "Diciembre",
+                "ventas": 5411770.0
+            }
+        ],
+        "topInventarioTiendas": [
+            {
+                "tienda": "Tienda 8",
+                "inventario": 9011526.0
+            },
+            {
+                "tienda": "Tienda 12",
+                "inventario": 8681463.0
+            },
+            {
+                "tienda": "Tienda 16",
+                "inventario": 8266995.0
+            },
+            {
+                "tienda": "Tienda 4",
+                "inventario": 8208519.0
+            },
+            {
+                "tienda": "Tienda 15",
+                "inventario": 7402932.0
+            }
+        ],
+        "ventasPorUnidadNegocio": [
+            {
+                "categoria": "TENNIS DEPORTIVOS",
+                "ventas": 13005687.0
+            },
+            {
+                "categoria": "CALZADO CASUAL HOMBRE",
+                "ventas": 9887083.0
+            },
+            {
+                "categoria": "CALZADO CASUAL MUJER",
+                "ventas": 9082428.0
+            },
+            {
+                "categoria": "CALZADO NIÑOS",
+                "ventas": 3602731.0
+            },
+            {
+                "categoria": "ACCESORIOS",
+                "ventas": 340930.0
+            }
+        ],
+        "paradojaTiendas": [
+            {
+                "TIENDA": "Tienda 1",
+                "ventas": 865480.0,
+                "inventario": 2742465.0
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "ventas": 1581697.0,
+                "inventario": 4304392.0
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "ventas": 1373011.0,
+                "inventario": 3553080.0
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "ventas": 4165598.0,
+                "inventario": 8681463.0
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "ventas": 1476078.0,
+                "inventario": 4371275.0
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "ventas": 494334.0,
+                "inventario": 2651664.0
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "ventas": 3042717.0,
+                "inventario": 7402932.0
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "ventas": 3616236.0,
+                "inventario": 8266995.0
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "ventas": 720131.0,
+                "inventario": 3035485.0
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "ventas": 2372082.0,
+                "inventario": 5972459.0
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "ventas": 1845243.0,
+                "inventario": 3660658.0
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "ventas": 3531012.0,
+                "inventario": 8208519.0
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "ventas": 1666787.0,
+                "inventario": 5517761.0
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "ventas": 1196680.0,
+                "inventario": 3988388.0
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "ventas": 2303021.0,
+                "inventario": 5319667.0
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "ventas": 4031359.0,
+                "inventario": 9011526.0
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "ventas": 1637393.0,
+                "inventario": 5350508.0
+            }
+        ]
+    },
+    "2025": {
+        "kpis": {
+            "totalVentasPzs": "12.60 M",
+            "totalInventarioPzs": "43.25 M",
+            "rotacionInventario": "0.3x"
+        },
+        "estacionalidad": [
+            {
+                "mes": "Enero",
+                "ventas": 2295119.0
+            },
+            {
+                "mes": "Febrero",
+                "ventas": 2253727.0
+            },
+            {
+                "mes": "Marzo",
+                "ventas": 2804596.0
+            },
+            {
+                "mes": "Abril",
+                "ventas": 2524267.0
+            },
+            {
+                "mes": "Mayo",
+                "ventas": 2724647.0
+            },
+            {
+                "mes": "Junio",
+                "ventas": 0
+            },
+            {
+                "mes": "Julio",
+                "ventas": 0
+            },
+            {
+                "mes": "Agosto",
+                "ventas": 0
+            },
+            {
+                "mes": "Septiembre",
+                "ventas": 0
+            },
+            {
+                "mes": "Octubre",
+                "ventas": 0
+            },
+            {
+                "mes": "Noviembre",
+                "ventas": 0
+            },
+            {
+                "mes": "Diciembre",
+                "ventas": 0
+            }
+        ],
+        "topInventarioTiendas": [
+            {
+                "tienda": "Tienda 8",
+                "inventario": 4459958.0
+            },
+            {
+                "tienda": "Tienda 4",
+                "inventario": 4176171.0
+            },
+            {
+                "tienda": "Tienda 12",
+                "inventario": 4080444.0
+            },
+            {
+                "tienda": "Tienda 16",
+                "inventario": 3964805.0
+            },
+            {
+                "tienda": "Tienda 15",
+                "inventario": 3417547.0
+            }
+        ],
+        "ventasPorUnidadNegocio": [
+            {
+                "categoria": "TENNIS DEPORTIVOS",
+                "ventas": 4414285.0
+            },
+            {
+                "categoria": "CALZADO CASUAL HOMBRE",
+                "ventas": 3658317.0
+            },
+            {
+                "categoria": "CALZADO CASUAL MUJER",
+                "ventas": 3082011.0
+            },
+            {
+                "categoria": "CALZADO NIÑOS",
+                "ventas": 1423378.0
+            },
+            {
+                "categoria": "ACCESORIOS",
+                "ventas": 24365.0
+            }
+        ],
+        "paradojaTiendas": [
+            {
+                "TIENDA": "Tienda 1",
+                "ventas": 296806.0,
+                "inventario": 1266817.0
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "ventas": 549992.0,
+                "inventario": 2008001.0
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "ventas": 462640.0,
+                "inventario": 1695293.0
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "ventas": 1493572.0,
+                "inventario": 4080444.0
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "ventas": 517234.0,
+                "inventario": 2053399.0
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "ventas": 131810.0,
+                "inventario": 918371.0
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "ventas": 1080750.0,
+                "inventario": 3417547.0
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "ventas": 1264477.0,
+                "inventario": 3964805.0
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "ventas": 279067.0,
+                "inventario": 1356674.0
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "ventas": 835233.0,
+                "inventario": 2852156.0
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "ventas": 681883.0,
+                "inventario": 1785210.0
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "ventas": 1254749.0,
+                "inventario": 4176171.0
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "ventas": 571396.0,
+                "inventario": 2547757.0
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "ventas": 407297.0,
+                "inventario": 1724419.0
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "ventas": 802429.0,
+                "inventario": 2543615.0
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "ventas": 1414607.0,
+                "inventario": 4459958.0
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "ventas": 558414.0,
+                "inventario": 2395359.0
+            }
+        ]
+    },
+    "prediccion_2025": {
+        "prediccionDetallada": [
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 17058,
+                "INVENTARIO_SUGERIDO": 19616
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 15425,
+                "INVENTARIO_SUGERIDO": 17738
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 18504,
+                "INVENTARIO_SUGERIDO": 21279
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 15276,
+                "INVENTARIO_SUGERIDO": 17567
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 15457,
+                "INVENTARIO_SUGERIDO": 17775
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 16951,
+                "INVENTARIO_SUGERIDO": 19493
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 28363,
+                "INVENTARIO_SUGERIDO": 32617
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 16552,
+                "INVENTARIO_SUGERIDO": 19034
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 15820,
+                "INVENTARIO_SUGERIDO": 18193
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 19733,
+                "INVENTARIO_SUGERIDO": 22692
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 15068,
+                "INVENTARIO_SUGERIDO": 17328
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 16684,
+                "INVENTARIO_SUGERIDO": 19186
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 18830,
+                "INVENTARIO_SUGERIDO": 21654
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 33514,
+                "INVENTARIO_SUGERIDO": 38541
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 7018,
+                "INVENTARIO_SUGERIDO": 8070
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 6938,
+                "INVENTARIO_SUGERIDO": 7978
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 7718,
+                "INVENTARIO_SUGERIDO": 8875
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 7421,
+                "INVENTARIO_SUGERIDO": 8534
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 8662,
+                "INVENTARIO_SUGERIDO": 9961
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 9395,
+                "INVENTARIO_SUGERIDO": 10804
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 17670,
+                "INVENTARIO_SUGERIDO": 20320
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 19861,
+                "INVENTARIO_SUGERIDO": 22840
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 20139,
+                "INVENTARIO_SUGERIDO": 23159
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 21457,
+                "INVENTARIO_SUGERIDO": 24675
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 25473,
+                "INVENTARIO_SUGERIDO": 29293
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 33295,
+                "INVENTARIO_SUGERIDO": 38289
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 37652,
+                "INVENTARIO_SUGERIDO": 43299
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 71879,
+                "INVENTARIO_SUGERIDO": 82660
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 476,
+                "INVENTARIO_SUGERIDO": 547
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 1450,
+                "INVENTARIO_SUGERIDO": 1667
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 3542,
+                "INVENTARIO_SUGERIDO": 4073
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 271,
+                "INVENTARIO_SUGERIDO": 311
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 394,
+                "INVENTARIO_SUGERIDO": 453
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 772,
+                "INVENTARIO_SUGERIDO": 887
+            },
+            {
+                "TIENDA": "Tienda 1",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 420,
+                "INVENTARIO_SUGERIDO": 482
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 55683,
+                "INVENTARIO_SUGERIDO": 64035
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 50069,
+                "INVENTARIO_SUGERIDO": 57579
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 64805,
+                "INVENTARIO_SUGERIDO": 74525
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 51212,
+                "INVENTARIO_SUGERIDO": 58893
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 50280,
+                "INVENTARIO_SUGERIDO": 57821
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 54345,
+                "INVENTARIO_SUGERIDO": 62496
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 80736,
+                "INVENTARIO_SUGERIDO": 92846
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 42532,
+                "INVENTARIO_SUGERIDO": 48911
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 48479,
+                "INVENTARIO_SUGERIDO": 55750
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 66631,
+                "INVENTARIO_SUGERIDO": 76625
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 40895,
+                "INVENTARIO_SUGERIDO": 47029
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 42369,
+                "INVENTARIO_SUGERIDO": 48724
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 44024,
+                "INVENTARIO_SUGERIDO": 50627
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 78906,
+                "INVENTARIO_SUGERIDO": 90741
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 17464,
+                "INVENTARIO_SUGERIDO": 20083
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 17042,
+                "INVENTARIO_SUGERIDO": 19598
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 19920,
+                "INVENTARIO_SUGERIDO": 22908
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 18892,
+                "INVENTARIO_SUGERIDO": 21725
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 21007,
+                "INVENTARIO_SUGERIDO": 24158
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 22570,
+                "INVENTARIO_SUGERIDO": 25955
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 36365,
+                "INVENTARIO_SUGERIDO": 41819
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 54662,
+                "INVENTARIO_SUGERIDO": 62861
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 54864,
+                "INVENTARIO_SUGERIDO": 63093
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 60922,
+                "INVENTARIO_SUGERIDO": 70060
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 67777,
+                "INVENTARIO_SUGERIDO": 77943
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 89201,
+                "INVENTARIO_SUGERIDO": 102581
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 92241,
+                "INVENTARIO_SUGERIDO": 106077
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 149512,
+                "INVENTARIO_SUGERIDO": 171938
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 1000,
+                "INVENTARIO_SUGERIDO": 1150
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 3288,
+                "INVENTARIO_SUGERIDO": 3781
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 8462,
+                "INVENTARIO_SUGERIDO": 9731
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 1002,
+                "INVENTARIO_SUGERIDO": 1152
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 1251,
+                "INVENTARIO_SUGERIDO": 1438
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 1863,
+                "INVENTARIO_SUGERIDO": 2142
+            },
+            {
+                "TIENDA": "Tienda 2",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 958,
+                "INVENTARIO_SUGERIDO": 1101
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 42385,
+                "INVENTARIO_SUGERIDO": 48742
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 40542,
+                "INVENTARIO_SUGERIDO": 46623
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 50058,
+                "INVENTARIO_SUGERIDO": 57566
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 40238,
+                "INVENTARIO_SUGERIDO": 46273
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 39498,
+                "INVENTARIO_SUGERIDO": 45422
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 41842,
+                "INVENTARIO_SUGERIDO": 48118
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 58797,
+                "INVENTARIO_SUGERIDO": 67616
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 34272,
+                "INVENTARIO_SUGERIDO": 39412
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 38584,
+                "INVENTARIO_SUGERIDO": 44371
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 50077,
+                "INVENTARIO_SUGERIDO": 57588
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 32525,
+                "INVENTARIO_SUGERIDO": 37403
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 34010,
+                "INVENTARIO_SUGERIDO": 39111
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 35945,
+                "INVENTARIO_SUGERIDO": 41336
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 56569,
+                "INVENTARIO_SUGERIDO": 65054
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 13611,
+                "INVENTARIO_SUGERIDO": 15652
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 13106,
+                "INVENTARIO_SUGERIDO": 15071
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 16408,
+                "INVENTARIO_SUGERIDO": 18869
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 15812,
+                "INVENTARIO_SUGERIDO": 18183
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 16340,
+                "INVENTARIO_SUGERIDO": 18791
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 17217,
+                "INVENTARIO_SUGERIDO": 19799
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 28361,
+                "INVENTARIO_SUGERIDO": 32615
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 47259,
+                "INVENTARIO_SUGERIDO": 54347
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 48209,
+                "INVENTARIO_SUGERIDO": 55440
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 53834,
+                "INVENTARIO_SUGERIDO": 61909
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 56351,
+                "INVENTARIO_SUGERIDO": 64803
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 71362,
+                "INVENTARIO_SUGERIDO": 82066
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 68568,
+                "INVENTARIO_SUGERIDO": 78853
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 121758,
+                "INVENTARIO_SUGERIDO": 140021
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 943,
+                "INVENTARIO_SUGERIDO": 1084
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 2620,
+                "INVENTARIO_SUGERIDO": 3012
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 6805,
+                "INVENTARIO_SUGERIDO": 7825
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 803,
+                "INVENTARIO_SUGERIDO": 923
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 827,
+                "INVENTARIO_SUGERIDO": 951
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 1294,
+                "INVENTARIO_SUGERIDO": 1488
+            },
+            {
+                "TIENDA": "Tienda 3",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 768,
+                "INVENTARIO_SUGERIDO": 883
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 84393,
+                "INVENTARIO_SUGERIDO": 97051
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 78126,
+                "INVENTARIO_SUGERIDO": 89844
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 96653,
+                "INVENTARIO_SUGERIDO": 111150
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 80155,
+                "INVENTARIO_SUGERIDO": 92178
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 79049,
+                "INVENTARIO_SUGERIDO": 90906
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 83669,
+                "INVENTARIO_SUGERIDO": 96219
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 113816,
+                "INVENTARIO_SUGERIDO": 130888
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 72799,
+                "INVENTARIO_SUGERIDO": 83718
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 80537,
+                "INVENTARIO_SUGERIDO": 92617
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 102299,
+                "INVENTARIO_SUGERIDO": 117643
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 71085,
+                "INVENTARIO_SUGERIDO": 81747
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 73974,
+                "INVENTARIO_SUGERIDO": 85070
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 76824,
+                "INVENTARIO_SUGERIDO": 88347
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 113977,
+                "INVENTARIO_SUGERIDO": 131073
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 25192,
+                "INVENTARIO_SUGERIDO": 28970
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 25314,
+                "INVENTARIO_SUGERIDO": 29111
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 27806,
+                "INVENTARIO_SUGERIDO": 31976
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 25230,
+                "INVENTARIO_SUGERIDO": 29014
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 28577,
+                "INVENTARIO_SUGERIDO": 32863
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 32690,
+                "INVENTARIO_SUGERIDO": 37593
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 50257,
+                "INVENTARIO_SUGERIDO": 57795
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 71987,
+                "INVENTARIO_SUGERIDO": 82785
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 71713,
+                "INVENTARIO_SUGERIDO": 82469
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 80643,
+                "INVENTARIO_SUGERIDO": 92739
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 94805,
+                "INVENTARIO_SUGERIDO": 109025
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 121547,
+                "INVENTARIO_SUGERIDO": 139779
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 124706,
+                "INVENTARIO_SUGERIDO": 143411
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 202438,
+                "INVENTARIO_SUGERIDO": 232803
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 1278,
+                "INVENTARIO_SUGERIDO": 1469
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 3954,
+                "INVENTARIO_SUGERIDO": 4547
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 10902,
+                "INVENTARIO_SUGERIDO": 12537
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 1267,
+                "INVENTARIO_SUGERIDO": 1457
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 1502,
+                "INVENTARIO_SUGERIDO": 1727
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 2225,
+                "INVENTARIO_SUGERIDO": 2558
+            },
+            {
+                "TIENDA": "Tienda 4",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 1129,
+                "INVENTARIO_SUGERIDO": 1298
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 44183,
+                "INVENTARIO_SUGERIDO": 50810
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 40835,
+                "INVENTARIO_SUGERIDO": 46960
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 49475,
+                "INVENTARIO_SUGERIDO": 56896
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 43067,
+                "INVENTARIO_SUGERIDO": 49527
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 42687,
+                "INVENTARIO_SUGERIDO": 49090
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 47093,
+                "INVENTARIO_SUGERIDO": 54156
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 70003,
+                "INVENTARIO_SUGERIDO": 80503
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 34574,
+                "INVENTARIO_SUGERIDO": 39760
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 35427,
+                "INVENTARIO_SUGERIDO": 40741
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 47099,
+                "INVENTARIO_SUGERIDO": 54163
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 33082,
+                "INVENTARIO_SUGERIDO": 38044
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 36065,
+                "INVENTARIO_SUGERIDO": 41474
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 39713,
+                "INVENTARIO_SUGERIDO": 45669
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 67195,
+                "INVENTARIO_SUGERIDO": 77274
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 12704,
+                "INVENTARIO_SUGERIDO": 14609
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 12690,
+                "INVENTARIO_SUGERIDO": 14593
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 16890,
+                "INVENTARIO_SUGERIDO": 19423
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 12844,
+                "INVENTARIO_SUGERIDO": 14770
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 13879,
+                "INVENTARIO_SUGERIDO": 15960
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 17404,
+                "INVENTARIO_SUGERIDO": 20014
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 34111,
+                "INVENTARIO_SUGERIDO": 39227
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 26761,
+                "INVENTARIO_SUGERIDO": 30775
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 26698,
+                "INVENTARIO_SUGERIDO": 30702
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 29155,
+                "INVENTARIO_SUGERIDO": 33528
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 29558,
+                "INVENTARIO_SUGERIDO": 33991
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 39409,
+                "INVENTARIO_SUGERIDO": 45320
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 49552,
+                "INVENTARIO_SUGERIDO": 56984
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 98030,
+                "INVENTARIO_SUGERIDO": 112734
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 1188,
+                "INVENTARIO_SUGERIDO": 1366
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 4191,
+                "INVENTARIO_SUGERIDO": 4819
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 9457,
+                "INVENTARIO_SUGERIDO": 10875
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 939,
+                "INVENTARIO_SUGERIDO": 1079
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 1366,
+                "INVENTARIO_SUGERIDO": 1570
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 2308,
+                "INVENTARIO_SUGERIDO": 2654
+            },
+            {
+                "TIENDA": "Tienda 5",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 1041,
+                "INVENTARIO_SUGERIDO": 1197
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 31195,
+                "INVENTARIO_SUGERIDO": 35874
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 28859,
+                "INVENTARIO_SUGERIDO": 33187
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 34849,
+                "INVENTARIO_SUGERIDO": 40076
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 29845,
+                "INVENTARIO_SUGERIDO": 34321
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 29764,
+                "INVENTARIO_SUGERIDO": 34228
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 32274,
+                "INVENTARIO_SUGERIDO": 37115
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 52072,
+                "INVENTARIO_SUGERIDO": 59882
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 21615,
+                "INVENTARIO_SUGERIDO": 24857
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 22215,
+                "INVENTARIO_SUGERIDO": 25547
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 31166,
+                "INVENTARIO_SUGERIDO": 35840
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 20217,
+                "INVENTARIO_SUGERIDO": 23249
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 22343,
+                "INVENTARIO_SUGERIDO": 25694
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 25613,
+                "INVENTARIO_SUGERIDO": 29454
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 44863,
+                "INVENTARIO_SUGERIDO": 51592
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 11837,
+                "INVENTARIO_SUGERIDO": 13612
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 11782,
+                "INVENTARIO_SUGERIDO": 13549
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 14373,
+                "INVENTARIO_SUGERIDO": 16528
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 11182,
+                "INVENTARIO_SUGERIDO": 12859
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 12648,
+                "INVENTARIO_SUGERIDO": 14545
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 15720,
+                "INVENTARIO_SUGERIDO": 18078
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 29264,
+                "INVENTARIO_SUGERIDO": 33653
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 22262,
+                "INVENTARIO_SUGERIDO": 25601
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 21726,
+                "INVENTARIO_SUGERIDO": 24984
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 23242,
+                "INVENTARIO_SUGERIDO": 26728
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 21921,
+                "INVENTARIO_SUGERIDO": 25209
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 29864,
+                "INVENTARIO_SUGERIDO": 34343
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 34827,
+                "INVENTARIO_SUGERIDO": 40051
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 70923,
+                "INVENTARIO_SUGERIDO": 81561
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 889,
+                "INVENTARIO_SUGERIDO": 1022
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 3122,
+                "INVENTARIO_SUGERIDO": 3590
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 6593,
+                "INVENTARIO_SUGERIDO": 7581
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 610,
+                "INVENTARIO_SUGERIDO": 701
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 864,
+                "INVENTARIO_SUGERIDO": 993
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 1436,
+                "INVENTARIO_SUGERIDO": 1651
+            },
+            {
+                "TIENDA": "Tienda 6",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 717,
+                "INVENTARIO_SUGERIDO": 824
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 50527,
+                "INVENTARIO_SUGERIDO": 58106
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 47730,
+                "INVENTARIO_SUGERIDO": 54889
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 58022,
+                "INVENTARIO_SUGERIDO": 66725
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 47973,
+                "INVENTARIO_SUGERIDO": 55168
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 46735,
+                "INVENTARIO_SUGERIDO": 53745
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 51702,
+                "INVENTARIO_SUGERIDO": 59457
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 76977,
+                "INVENTARIO_SUGERIDO": 88523
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 39073,
+                "INVENTARIO_SUGERIDO": 44933
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 46661,
+                "INVENTARIO_SUGERIDO": 53660
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 60609,
+                "INVENTARIO_SUGERIDO": 69700
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 40458,
+                "INVENTARIO_SUGERIDO": 46526
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 40677,
+                "INVENTARIO_SUGERIDO": 46778
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 42695,
+                "INVENTARIO_SUGERIDO": 49099
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 74655,
+                "INVENTARIO_SUGERIDO": 85853
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 17761,
+                "INVENTARIO_SUGERIDO": 20425
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 17357,
+                "INVENTARIO_SUGERIDO": 19960
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 19613,
+                "INVENTARIO_SUGERIDO": 22554
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 18641,
+                "INVENTARIO_SUGERIDO": 21437
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 20411,
+                "INVENTARIO_SUGERIDO": 23472
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 22356,
+                "INVENTARIO_SUGERIDO": 25709
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 39683,
+                "INVENTARIO_SUGERIDO": 45635
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 55382,
+                "INVENTARIO_SUGERIDO": 63689
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 57124,
+                "INVENTARIO_SUGERIDO": 65692
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 61860,
+                "INVENTARIO_SUGERIDO": 71139
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 68964,
+                "INVENTARIO_SUGERIDO": 79308
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 83470,
+                "INVENTARIO_SUGERIDO": 95990
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 83443,
+                "INVENTARIO_SUGERIDO": 95959
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 153127,
+                "INVENTARIO_SUGERIDO": 176096
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 1039,
+                "INVENTARIO_SUGERIDO": 1194
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 3010,
+                "INVENTARIO_SUGERIDO": 3461
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 7906,
+                "INVENTARIO_SUGERIDO": 9091
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 826,
+                "INVENTARIO_SUGERIDO": 949
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 931,
+                "INVENTARIO_SUGERIDO": 1070
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 1409,
+                "INVENTARIO_SUGERIDO": 1620
+            },
+            {
+                "TIENDA": "Tienda 7",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 708,
+                "INVENTARIO_SUGERIDO": 814
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 89928,
+                "INVENTARIO_SUGERIDO": 103417
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 83367,
+                "INVENTARIO_SUGERIDO": 95872
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 104577,
+                "INVENTARIO_SUGERIDO": 120263
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 86587,
+                "INVENTARIO_SUGERIDO": 99575
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 84539,
+                "INVENTARIO_SUGERIDO": 97219
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 90181,
+                "INVENTARIO_SUGERIDO": 103708
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 125840,
+                "INVENTARIO_SUGERIDO": 144716
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 74223,
+                "INVENTARIO_SUGERIDO": 85356
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 79813,
+                "INVENTARIO_SUGERIDO": 91784
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 105143,
+                "INVENTARIO_SUGERIDO": 120914
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 73680,
+                "INVENTARIO_SUGERIDO": 84732
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 75892,
+                "INVENTARIO_SUGERIDO": 87275
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 77770,
+                "INVENTARIO_SUGERIDO": 89435
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 119674,
+                "INVENTARIO_SUGERIDO": 137625
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 30230,
+                "INVENTARIO_SUGERIDO": 34764
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 29637,
+                "INVENTARIO_SUGERIDO": 34082
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 32553,
+                "INVENTARIO_SUGERIDO": 37435
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 32046,
+                "INVENTARIO_SUGERIDO": 36852
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 36014,
+                "INVENTARIO_SUGERIDO": 41416
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 40906,
+                "INVENTARIO_SUGERIDO": 47041
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 59843,
+                "INVENTARIO_SUGERIDO": 68819
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 91149,
+                "INVENTARIO_SUGERIDO": 104821
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 93564,
+                "INVENTARIO_SUGERIDO": 107598
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 108764,
+                "INVENTARIO_SUGERIDO": 125078
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 114029,
+                "INVENTARIO_SUGERIDO": 131133
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 151201,
+                "INVENTARIO_SUGERIDO": 173881
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 151136,
+                "INVENTARIO_SUGERIDO": 173806
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 234243,
+                "INVENTARIO_SUGERIDO": 269379
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 1629,
+                "INVENTARIO_SUGERIDO": 1873
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 4581,
+                "INVENTARIO_SUGERIDO": 5268
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 12138,
+                "INVENTARIO_SUGERIDO": 13958
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 1775,
+                "INVENTARIO_SUGERIDO": 2041
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 1946,
+                "INVENTARIO_SUGERIDO": 2237
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 2834,
+                "INVENTARIO_SUGERIDO": 3259
+            },
+            {
+                "TIENDA": "Tienda 8",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 1015,
+                "INVENTARIO_SUGERIDO": 1167
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 37396,
+                "INVENTARIO_SUGERIDO": 43005
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 33409,
+                "INVENTARIO_SUGERIDO": 38420
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 41477,
+                "INVENTARIO_SUGERIDO": 47698
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 35233,
+                "INVENTARIO_SUGERIDO": 40517
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 35622,
+                "INVENTARIO_SUGERIDO": 40965
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 37705,
+                "INVENTARIO_SUGERIDO": 43360
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 53207,
+                "INVENTARIO_SUGERIDO": 61188
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 31395,
+                "INVENTARIO_SUGERIDO": 36104
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 32774,
+                "INVENTARIO_SUGERIDO": 37690
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 42672,
+                "INVENTARIO_SUGERIDO": 49072
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 31439,
+                "INVENTARIO_SUGERIDO": 36154
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 34495,
+                "INVENTARIO_SUGERIDO": 39669
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 36382,
+                "INVENTARIO_SUGERIDO": 41839
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 57048,
+                "INVENTARIO_SUGERIDO": 65605
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 11082,
+                "INVENTARIO_SUGERIDO": 12744
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 11497,
+                "INVENTARIO_SUGERIDO": 13221
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 13498,
+                "INVENTARIO_SUGERIDO": 15522
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 11656,
+                "INVENTARIO_SUGERIDO": 13404
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 13184,
+                "INVENTARIO_SUGERIDO": 15161
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 15353,
+                "INVENTARIO_SUGERIDO": 17655
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 30698,
+                "INVENTARIO_SUGERIDO": 35302
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 29989,
+                "INVENTARIO_SUGERIDO": 34487
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 31305,
+                "INVENTARIO_SUGERIDO": 36000
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 36285,
+                "INVENTARIO_SUGERIDO": 41727
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 46460,
+                "INVENTARIO_SUGERIDO": 53428
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 63894,
+                "INVENTARIO_SUGERIDO": 73478
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 64714,
+                "INVENTARIO_SUGERIDO": 74421
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 114577,
+                "INVENTARIO_SUGERIDO": 131763
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 1347,
+                "INVENTARIO_SUGERIDO": 1549
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 3553,
+                "INVENTARIO_SUGERIDO": 4085
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 7328,
+                "INVENTARIO_SUGERIDO": 8427
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 692,
+                "INVENTARIO_SUGERIDO": 795
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 1107,
+                "INVENTARIO_SUGERIDO": 1273
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 1586,
+                "INVENTARIO_SUGERIDO": 1823
+            },
+            {
+                "TIENDA": "Tienda 9",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 692,
+                "INVENTARIO_SUGERIDO": 795
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 33034,
+                "INVENTARIO_SUGERIDO": 37989
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 31757,
+                "INVENTARIO_SUGERIDO": 36520
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 38338,
+                "INVENTARIO_SUGERIDO": 44088
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 30640,
+                "INVENTARIO_SUGERIDO": 35236
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 30536,
+                "INVENTARIO_SUGERIDO": 35116
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 33580,
+                "INVENTARIO_SUGERIDO": 38617
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 48724,
+                "INVENTARIO_SUGERIDO": 56032
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 28241,
+                "INVENTARIO_SUGERIDO": 32477
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 31688,
+                "INVENTARIO_SUGERIDO": 36441
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 41483,
+                "INVENTARIO_SUGERIDO": 47705
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 27722,
+                "INVENTARIO_SUGERIDO": 31880
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 28313,
+                "INVENTARIO_SUGERIDO": 32559
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 29025,
+                "INVENTARIO_SUGERIDO": 33378
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 49915,
+                "INVENTARIO_SUGERIDO": 57402
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 11970,
+                "INVENTARIO_SUGERIDO": 13765
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 12025,
+                "INVENTARIO_SUGERIDO": 13828
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 14848,
+                "INVENTARIO_SUGERIDO": 17075
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 13264,
+                "INVENTARIO_SUGERIDO": 15253
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 14870,
+                "INVENTARIO_SUGERIDO": 17100
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 16163,
+                "INVENTARIO_SUGERIDO": 18587
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 26699,
+                "INVENTARIO_SUGERIDO": 30703
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 39072,
+                "INVENTARIO_SUGERIDO": 44932
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 40269,
+                "INVENTARIO_SUGERIDO": 46309
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 44717,
+                "INVENTARIO_SUGERIDO": 51424
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 46215,
+                "INVENTARIO_SUGERIDO": 53147
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 60460,
+                "INVENTARIO_SUGERIDO": 69529
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 61248,
+                "INVENTARIO_SUGERIDO": 70435
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 111568,
+                "INVENTARIO_SUGERIDO": 128303
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 668,
+                "INVENTARIO_SUGERIDO": 768
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 1928,
+                "INVENTARIO_SUGERIDO": 2217
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 6754,
+                "INVENTARIO_SUGERIDO": 7767
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 797,
+                "INVENTARIO_SUGERIDO": 916
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 671,
+                "INVENTARIO_SUGERIDO": 771
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 1056,
+                "INVENTARIO_SUGERIDO": 1214
+            },
+            {
+                "TIENDA": "Tienda 10",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 632,
+                "INVENTARIO_SUGERIDO": 726
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 24079,
+                "INVENTARIO_SUGERIDO": 27690
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 22752,
+                "INVENTARIO_SUGERIDO": 26164
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 28162,
+                "INVENTARIO_SUGERIDO": 32386
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 22053,
+                "INVENTARIO_SUGERIDO": 25360
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 21702,
+                "INVENTARIO_SUGERIDO": 24957
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 23923,
+                "INVENTARIO_SUGERIDO": 27511
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 34750,
+                "INVENTARIO_SUGERIDO": 39962
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 19890,
+                "INVENTARIO_SUGERIDO": 22873
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 21670,
+                "INVENTARIO_SUGERIDO": 24920
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 28174,
+                "INVENTARIO_SUGERIDO": 32400
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 19137,
+                "INVENTARIO_SUGERIDO": 22007
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 20076,
+                "INVENTARIO_SUGERIDO": 23087
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 20809,
+                "INVENTARIO_SUGERIDO": 23930
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 34014,
+                "INVENTARIO_SUGERIDO": 39116
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 12508,
+                "INVENTARIO_SUGERIDO": 14384
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 12485,
+                "INVENTARIO_SUGERIDO": 14357
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 14473,
+                "INVENTARIO_SUGERIDO": 16643
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 13359,
+                "INVENTARIO_SUGERIDO": 15362
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 14899,
+                "INVENTARIO_SUGERIDO": 17133
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 16216,
+                "INVENTARIO_SUGERIDO": 18648
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 26869,
+                "INVENTARIO_SUGERIDO": 30899
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 38758,
+                "INVENTARIO_SUGERIDO": 44571
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 39420,
+                "INVENTARIO_SUGERIDO": 45333
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 44584,
+                "INVENTARIO_SUGERIDO": 51271
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 46660,
+                "INVENTARIO_SUGERIDO": 53658
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 61746,
+                "INVENTARIO_SUGERIDO": 71007
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 63541,
+                "INVENTARIO_SUGERIDO": 73072
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 121529,
+                "INVENTARIO_SUGERIDO": 139758
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 749,
+                "INVENTARIO_SUGERIDO": 861
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 1729,
+                "INVENTARIO_SUGERIDO": 1988
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 5743,
+                "INVENTARIO_SUGERIDO": 6604
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 499,
+                "INVENTARIO_SUGERIDO": 573
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 540,
+                "INVENTARIO_SUGERIDO": 621
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 997,
+                "INVENTARIO_SUGERIDO": 1146
+            },
+            {
+                "TIENDA": "Tienda 11",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 656,
+                "INVENTARIO_SUGERIDO": 754
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 105529,
+                "INVENTARIO_SUGERIDO": 121358
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 95935,
+                "INVENTARIO_SUGERIDO": 110325
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 116449,
+                "INVENTARIO_SUGERIDO": 133916
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 96732,
+                "INVENTARIO_SUGERIDO": 111241
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 95696,
+                "INVENTARIO_SUGERIDO": 110050
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 101531,
+                "INVENTARIO_SUGERIDO": 116760
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 133070,
+                "INVENTARIO_SUGERIDO": 153030
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 84387,
+                "INVENTARIO_SUGERIDO": 97045
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 92041,
+                "INVENTARIO_SUGERIDO": 105847
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 110645,
+                "INVENTARIO_SUGERIDO": 127241
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 77985,
+                "INVENTARIO_SUGERIDO": 89682
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 82633,
+                "INVENTARIO_SUGERIDO": 95027
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 84642,
+                "INVENTARIO_SUGERIDO": 97338
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 129510,
+                "INVENTARIO_SUGERIDO": 148936
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 25980,
+                "INVENTARIO_SUGERIDO": 29876
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 25644,
+                "INVENTARIO_SUGERIDO": 29490
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 26965,
+                "INVENTARIO_SUGERIDO": 31009
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 25515,
+                "INVENTARIO_SUGERIDO": 29342
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 29818,
+                "INVENTARIO_SUGERIDO": 34290
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 31631,
+                "INVENTARIO_SUGERIDO": 36375
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 47099,
+                "INVENTARIO_SUGERIDO": 54163
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 98150,
+                "INVENTARIO_SUGERIDO": 112872
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 96106,
+                "INVENTARIO_SUGERIDO": 110521
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 102929,
+                "INVENTARIO_SUGERIDO": 118368
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 125329,
+                "INVENTARIO_SUGERIDO": 144128
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 158662,
+                "INVENTARIO_SUGERIDO": 182461
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 150815,
+                "INVENTARIO_SUGERIDO": 173437
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 216786,
+                "INVENTARIO_SUGERIDO": 249303
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 1728,
+                "INVENTARIO_SUGERIDO": 1987
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 4854,
+                "INVENTARIO_SUGERIDO": 5582
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 12224,
+                "INVENTARIO_SUGERIDO": 14057
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 1667,
+                "INVENTARIO_SUGERIDO": 1917
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 1953,
+                "INVENTARIO_SUGERIDO": 2245
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 2576,
+                "INVENTARIO_SUGERIDO": 2962
+            },
+            {
+                "TIENDA": "Tienda 12",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 1393,
+                "INVENTARIO_SUGERIDO": 1601
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 25514,
+                "INVENTARIO_SUGERIDO": 29341
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 24151,
+                "INVENTARIO_SUGERIDO": 27773
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 29857,
+                "INVENTARIO_SUGERIDO": 34335
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 23562,
+                "INVENTARIO_SUGERIDO": 27096
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 23411,
+                "INVENTARIO_SUGERIDO": 26922
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 25346,
+                "INVENTARIO_SUGERIDO": 29147
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 35408,
+                "INVENTARIO_SUGERIDO": 40719
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 23294,
+                "INVENTARIO_SUGERIDO": 26788
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 24587,
+                "INVENTARIO_SUGERIDO": 28275
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 31698,
+                "INVENTARIO_SUGERIDO": 36452
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 21229,
+                "INVENTARIO_SUGERIDO": 24413
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 23210,
+                "INVENTARIO_SUGERIDO": 26691
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 25724,
+                "INVENTARIO_SUGERIDO": 29582
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 41596,
+                "INVENTARIO_SUGERIDO": 47835
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 11552,
+                "INVENTARIO_SUGERIDO": 13284
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 11343,
+                "INVENTARIO_SUGERIDO": 13044
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 14121,
+                "INVENTARIO_SUGERIDO": 16239
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 11620,
+                "INVENTARIO_SUGERIDO": 13362
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 13667,
+                "INVENTARIO_SUGERIDO": 15717
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 16108,
+                "INVENTARIO_SUGERIDO": 18524
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 31288,
+                "INVENTARIO_SUGERIDO": 35981
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 40375,
+                "INVENTARIO_SUGERIDO": 46431
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 40532,
+                "INVENTARIO_SUGERIDO": 46611
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 44206,
+                "INVENTARIO_SUGERIDO": 50836
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 53530,
+                "INVENTARIO_SUGERIDO": 61559
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 74007,
+                "INVENTARIO_SUGERIDO": 85108
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 74952,
+                "INVENTARIO_SUGERIDO": 86194
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 139500,
+                "INVENTARIO_SUGERIDO": 160425
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 821,
+                "INVENTARIO_SUGERIDO": 944
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 2911,
+                "INVENTARIO_SUGERIDO": 3347
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 5838,
+                "INVENTARIO_SUGERIDO": 6713
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 521,
+                "INVENTARIO_SUGERIDO": 599
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 612,
+                "INVENTARIO_SUGERIDO": 703
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 985,
+                "INVENTARIO_SUGERIDO": 1132
+            },
+            {
+                "TIENDA": "Tienda 13",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 643,
+                "INVENTARIO_SUGERIDO": 739
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 7814,
+                "INVENTARIO_SUGERIDO": 8986
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 7275,
+                "INVENTARIO_SUGERIDO": 8366
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 8875,
+                "INVENTARIO_SUGERIDO": 10206
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 7823,
+                "INVENTARIO_SUGERIDO": 8996
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 7817,
+                "INVENTARIO_SUGERIDO": 8989
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 8318,
+                "INVENTARIO_SUGERIDO": 9565
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 15423,
+                "INVENTARIO_SUGERIDO": 17736
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 6063,
+                "INVENTARIO_SUGERIDO": 6972
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 5895,
+                "INVENTARIO_SUGERIDO": 6779
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 8978,
+                "INVENTARIO_SUGERIDO": 10324
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 6138,
+                "INVENTARIO_SUGERIDO": 7058
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 6167,
+                "INVENTARIO_SUGERIDO": 7092
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 6797,
+                "INVENTARIO_SUGERIDO": 7816
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 17154,
+                "INVENTARIO_SUGERIDO": 19727
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 4745,
+                "INVENTARIO_SUGERIDO": 5456
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 5036,
+                "INVENTARIO_SUGERIDO": 5791
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 7103,
+                "INVENTARIO_SUGERIDO": 8168
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 5342,
+                "INVENTARIO_SUGERIDO": 6143
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 5439,
+                "INVENTARIO_SUGERIDO": 6254
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 6156,
+                "INVENTARIO_SUGERIDO": 7079
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 16330,
+                "INVENTARIO_SUGERIDO": 18779
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 8786,
+                "INVENTARIO_SUGERIDO": 10103
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 8981,
+                "INVENTARIO_SUGERIDO": 10328
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 11653,
+                "INVENTARIO_SUGERIDO": 13400
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 11307,
+                "INVENTARIO_SUGERIDO": 13003
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 11942,
+                "INVENTARIO_SUGERIDO": 13733
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 17475,
+                "INVENTARIO_SUGERIDO": 20096
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 49711,
+                "INVENTARIO_SUGERIDO": 57167
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 256,
+                "INVENTARIO_SUGERIDO": 294
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 1003,
+                "INVENTARIO_SUGERIDO": 1153
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 2317,
+                "INVENTARIO_SUGERIDO": 2664
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 265,
+                "INVENTARIO_SUGERIDO": 304
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 269,
+                "INVENTARIO_SUGERIDO": 309
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 465,
+                "INVENTARIO_SUGERIDO": 534
+            },
+            {
+                "TIENDA": "Tienda 14",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 378,
+                "INVENTARIO_SUGERIDO": 434
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 70505,
+                "INVENTARIO_SUGERIDO": 81080
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 66620,
+                "INVENTARIO_SUGERIDO": 76613
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 79036,
+                "INVENTARIO_SUGERIDO": 90891
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 65704,
+                "INVENTARIO_SUGERIDO": 75559
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 64776,
+                "INVENTARIO_SUGERIDO": 74492
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 69575,
+                "INVENTARIO_SUGERIDO": 80011
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 90754,
+                "INVENTARIO_SUGERIDO": 104367
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 62246,
+                "INVENTARIO_SUGERIDO": 71582
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 70413,
+                "INVENTARIO_SUGERIDO": 80974
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 82532,
+                "INVENTARIO_SUGERIDO": 94911
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 62750,
+                "INVENTARIO_SUGERIDO": 72162
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 62951,
+                "INVENTARIO_SUGERIDO": 72393
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 64752,
+                "INVENTARIO_SUGERIDO": 74464
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 100268,
+                "INVENTARIO_SUGERIDO": 115308
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 18779,
+                "INVENTARIO_SUGERIDO": 21595
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 19531,
+                "INVENTARIO_SUGERIDO": 22460
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 21010,
+                "INVENTARIO_SUGERIDO": 24161
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 17203,
+                "INVENTARIO_SUGERIDO": 19783
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 20417,
+                "INVENTARIO_SUGERIDO": 23479
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 23402,
+                "INVENTARIO_SUGERIDO": 26912
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 35944,
+                "INVENTARIO_SUGERIDO": 41335
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 74403,
+                "INVENTARIO_SUGERIDO": 85563
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 76793,
+                "INVENTARIO_SUGERIDO": 88311
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 78677,
+                "INVENTARIO_SUGERIDO": 90478
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 85526,
+                "INVENTARIO_SUGERIDO": 98354
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 104950,
+                "INVENTARIO_SUGERIDO": 120692
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 111582,
+                "INVENTARIO_SUGERIDO": 128319
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 161109,
+                "INVENTARIO_SUGERIDO": 185275
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 1104,
+                "INVENTARIO_SUGERIDO": 1269
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 2717,
+                "INVENTARIO_SUGERIDO": 3124
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 7163,
+                "INVENTARIO_SUGERIDO": 8237
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 1012,
+                "INVENTARIO_SUGERIDO": 1163
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 1126,
+                "INVENTARIO_SUGERIDO": 1294
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 1678,
+                "INVENTARIO_SUGERIDO": 1929
+            },
+            {
+                "TIENDA": "Tienda 15",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 852,
+                "INVENTARIO_SUGERIDO": 979
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 75807,
+                "INVENTARIO_SUGERIDO": 87178
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 72359,
+                "INVENTARIO_SUGERIDO": 83212
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 91886,
+                "INVENTARIO_SUGERIDO": 105668
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 71991,
+                "INVENTARIO_SUGERIDO": 82789
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 71418,
+                "INVENTARIO_SUGERIDO": 82130
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 75180,
+                "INVENTARIO_SUGERIDO": 86457
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 103345,
+                "INVENTARIO_SUGERIDO": 118846
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 67972,
+                "INVENTARIO_SUGERIDO": 78167
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 74216,
+                "INVENTARIO_SUGERIDO": 85348
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 95634,
+                "INVENTARIO_SUGERIDO": 109979
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 65428,
+                "INVENTARIO_SUGERIDO": 75242
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 68058,
+                "INVENTARIO_SUGERIDO": 78266
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 69133,
+                "INVENTARIO_SUGERIDO": 79502
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 106615,
+                "INVENTARIO_SUGERIDO": 122607
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 26338,
+                "INVENTARIO_SUGERIDO": 30288
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 25956,
+                "INVENTARIO_SUGERIDO": 29849
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 28943,
+                "INVENTARIO_SUGERIDO": 33284
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 26430,
+                "INVENTARIO_SUGERIDO": 30394
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 30869,
+                "INVENTARIO_SUGERIDO": 35499
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 35601,
+                "INVENTARIO_SUGERIDO": 40941
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 53959,
+                "INVENTARIO_SUGERIDO": 62052
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 89035,
+                "INVENTARIO_SUGERIDO": 102390
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 89942,
+                "INVENTARIO_SUGERIDO": 103433
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 97613,
+                "INVENTARIO_SUGERIDO": 112254
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 108888,
+                "INVENTARIO_SUGERIDO": 125221
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 150499,
+                "INVENTARIO_SUGERIDO": 173073
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 153648,
+                "INVENTARIO_SUGERIDO": 176695
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 238851,
+                "INVENTARIO_SUGERIDO": 274678
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 1381,
+                "INVENTARIO_SUGERIDO": 1588
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 4010,
+                "INVENTARIO_SUGERIDO": 4611
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 10314,
+                "INVENTARIO_SUGERIDO": 11861
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 1212,
+                "INVENTARIO_SUGERIDO": 1393
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 1280,
+                "INVENTARIO_SUGERIDO": 1472
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 2135,
+                "INVENTARIO_SUGERIDO": 2455
+            },
+            {
+                "TIENDA": "Tienda 16",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 1141,
+                "INVENTARIO_SUGERIDO": 1312
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Junio",
+                "PREDICCION_PZS": 15075,
+                "INVENTARIO_SUGERIDO": 17336
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Julio",
+                "PREDICCION_PZS": 13999,
+                "INVENTARIO_SUGERIDO": 16098
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 17945,
+                "INVENTARIO_SUGERIDO": 20636
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 13817,
+                "INVENTARIO_SUGERIDO": 15889
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 14011,
+                "INVENTARIO_SUGERIDO": 16112
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 16176,
+                "INVENTARIO_SUGERIDO": 18602
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL HOMBRE",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 25151,
+                "INVENTARIO_SUGERIDO": 28923
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Junio",
+                "PREDICCION_PZS": 17254,
+                "INVENTARIO_SUGERIDO": 19842
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Julio",
+                "PREDICCION_PZS": 17204,
+                "INVENTARIO_SUGERIDO": 19784
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 22135,
+                "INVENTARIO_SUGERIDO": 25455
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 14373,
+                "INVENTARIO_SUGERIDO": 16528
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 14946,
+                "INVENTARIO_SUGERIDO": 17187
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 18640,
+                "INVENTARIO_SUGERIDO": 21436
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO CASUAL MUJER",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 27071,
+                "INVENTARIO_SUGERIDO": 31131
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 9485,
+                "INVENTARIO_SUGERIDO": 10907
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 9634,
+                "INVENTARIO_SUGERIDO": 11079
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 12489,
+                "INVENTARIO_SUGERIDO": 14362
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 8482,
+                "INVENTARIO_SUGERIDO": 9754
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 9444,
+                "INVENTARIO_SUGERIDO": 10860
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 10294,
+                "INVENTARIO_SUGERIDO": 11838
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "CALZADO NIÑOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 23091,
+                "INVENTARIO_SUGERIDO": 26554
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 12763,
+                "INVENTARIO_SUGERIDO": 14677
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 12723,
+                "INVENTARIO_SUGERIDO": 14631
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 15400,
+                "INVENTARIO_SUGERIDO": 17710
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 13012,
+                "INVENTARIO_SUGERIDO": 14963
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 12242,
+                "INVENTARIO_SUGERIDO": 14078
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 17735,
+                "INVENTARIO_SUGERIDO": 20395
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "TENNIS DEPORTIVOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 61487,
+                "INVENTARIO_SUGERIDO": 70710
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Junio",
+                "PREDICCION_PZS": 686,
+                "INVENTARIO_SUGERIDO": 788
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Julio",
+                "PREDICCION_PZS": 2285,
+                "INVENTARIO_SUGERIDO": 2627
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Agosto",
+                "PREDICCION_PZS": 5347,
+                "INVENTARIO_SUGERIDO": 6149
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Septiembre",
+                "PREDICCION_PZS": 475,
+                "INVENTARIO_SUGERIDO": 546
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Octubre",
+                "PREDICCION_PZS": 578,
+                "INVENTARIO_SUGERIDO": 664
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Noviembre",
+                "PREDICCION_PZS": 963,
+                "INVENTARIO_SUGERIDO": 1107
+            },
+            {
+                "TIENDA": "Tienda 17",
+                "UNIDAD DE NEGOCIO": "ACCESORIOS",
+                "MES": "Diciembre",
+                "PREDICCION_PZS": 877,
+                "INVENTARIO_SUGERIDO": 1008
+            }
+        ]
+    }
+}
